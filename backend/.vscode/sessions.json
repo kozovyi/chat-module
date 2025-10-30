@@ -1,0 +1,30 @@
+{
+  "$schema": "https://cdn.statically.io/gh/nguyenngoclongdev/cdn/main/schema/v10/terminal-keeper.json",
+  "theme": "tribe",
+  "active": "default",
+  "activateOnStartup": true,
+  "keepExistingTerminals": false,
+  "sessions": {
+    "default": [
+      {
+        "name": "server",
+        "autoExecuteCommands": true,
+        "icon": "cloud",
+        "focus": true,
+        "color": "terminal.ansiBrightYellow",
+        "commands": [
+          ".venv/Scripts/activate; clear; python main.py"
+        ]
+      },
+      {
+        "name": "dev",
+        "autoExecuteCommands": true,
+        "icon": "code",
+        "color": "terminal.ansiBrightMagenta",
+        "commands": [
+          ".venv/Scripts/activate; clear;"
+        ]
+      }
+    ]
+  }
+}

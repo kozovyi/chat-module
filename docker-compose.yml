@@ -1,0 +1,28 @@
+services:
+
+  db-postgres:
+    image: postgres
+    container_name: db-postgres
+    restart: always
+    shm_size: 1024mb
+    env_file:
+      - ./backend/core/.env
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  app-backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: planex-app
+    depends_on:
+      - db-postgres
+    ports: 
+      - "8000:8000"
+    command: >
+      sh -c "python3 run.py"  
+
+volumes:
+  postgres_data:
