@@ -85,6 +85,7 @@ class Settings(BaseSettings):
             "core/.env.template",
             "core/.env",
         ),
+        extra="ignore",
         case_sensitive=False,
         env_nested_delimiter="__",  # після цього роздільника шукати значення
         env_prefix="APP_CONFIG__",  # префікс для точного знаходження значення
