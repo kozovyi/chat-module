@@ -7,7 +7,7 @@ from fastapi_users_db_sqlalchemy.access_token import (
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from core.models.base import Base
-from core.database import async_db_helper
+from core.database import get_db
 
 
 class AccessToken(SQLAlchemyBaseAccessTokenTableUUID, Base):  
@@ -16,6 +16,6 @@ class AccessToken(SQLAlchemyBaseAccessTokenTableUUID, Base):
     @classmethod
     # фукнція повертає обєкт для роботи з певною таблицею в БД (user)
     async def get_db(
-        cls, session: AsyncSession = Depends(async_db_helper.session_getter),
+        cls, session: AsyncSession = Depends(get_db),
     ):  
         yield SQLAlchemyAccessTokenDatabase(session, cls)

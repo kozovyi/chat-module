@@ -109,3 +109,5 @@ sync_db_helper = DatabaseHelperSync(
     echo=settings.db.echo,
     echo_pool=settings.db.echo_pool,
 )
+
+get_db = async_db_helper.session_getter
