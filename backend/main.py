@@ -1,5 +1,7 @@
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI, status
+# from fastapi_admin.app import app as admin_app
+from fastapi import FastAPI
 
 from contextlib import asynccontextmanager
 import uvicorn

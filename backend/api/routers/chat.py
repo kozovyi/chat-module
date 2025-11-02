@@ -1,6 +1,6 @@
 from fastapi import APIRouter, FastAPI, WebSocket, WebSocketDisconnect
 
-from chat.manager import manager
+from  modules.chat.manager import manager
 
 
 router = APIRouter()
