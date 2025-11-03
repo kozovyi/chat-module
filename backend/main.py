@@ -1,8 +1,6 @@
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI, status
-# from fastapi_admin.app import app as admin_app
-from fastapi import FastAPI
-
+from fastadmin import fastapi_app as admin_app
 from contextlib import asynccontextmanager
 import uvicorn
 import os
@@ -31,6 +29,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(lifespan=lifespan)
+app.mount("/admin", admin_app)
 app.include_router(router, prefix=settings.api.prefix)
 
 app.add_middleware(
@@ -43,6 +42,9 @@ app.add_middleware(
 
 
 if __name__ == "__main__":
+    print(settings.admin.user_model)
+    print(settings.admin.username_field)
+    print(settings.admin.secret_key)
     uvicorn.run(
         "main:app",
         host=settings.run.host,

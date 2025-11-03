@@ -42,6 +42,11 @@ class AccessToken(BaseModel):
     reset_password_token_secret: str
     verification_token_secret: str
 
+class AdminCred(BaseModel):
+    user_model: str
+    username_field: str
+    secret_key: str
+
 class ApiV1Prefix:
     prefix: str = "/api_v1"
     user: str = "/user"
@@ -74,6 +79,7 @@ class LoggingConfig(BaseModel):
 
 class SuperUser(BaseModel):
     default_email: str
+    default_username: str
     default_password: str
     default_is_active: bool
     default_is_superuser: bool
@@ -97,6 +103,7 @@ class Settings(BaseSettings):
     access_token: AccessToken
     super_user: SuperUser
     db: DatabaseConfig
+    admin: AdminCred
     mongo_db: MongoConfig
 
 

@@ -1,3 +1,4 @@
+from api.deps.auth import get_user_db
 import uuid
 
 from fastapi import Depends, Request
@@ -26,5 +27,5 @@ class UserManager(UUIDIDMixin, BaseUserManager[User, uuid.UUID]):
 
 
     @classmethod
-    async def get_user_manager(cls, user_db=Depends(User.get_db)):
+    async def get_user_manager(cls, user_db=Depends(get_user_db)):
         yield UserManager(user_db)
