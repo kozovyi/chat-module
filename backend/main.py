@@ -42,9 +42,6 @@ app.add_middleware(
 
 
 if __name__ == "__main__":
-    print(settings.admin.user_model)
-    print(settings.admin.username_field)
-    print(settings.admin.secret_key)
     uvicorn.run(
         "main:app",
         host=settings.run.host,
