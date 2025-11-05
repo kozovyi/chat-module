@@ -5,6 +5,7 @@ from sqlalchemy.orm import (
     relationship,
     declared_attr,
 )
+from datetime import datetime
 from sqlalchemy import Index, ForeignKey, CheckConstraint, String, text, Float, MetaData
 from sqlalchemy.dialects.postgresql import UUID
 from random import randint
@@ -39,11 +40,12 @@ class Base(DeclarativeBase):
 
 pk = Annotated[
     uuid.UUID,
-    mapped_column(
-        UUID(as_uuid=True),
-        primary_key=True,
-        default=lambda: uuid.uuid1(randint(10, 10**12)),
-    ),
+    mapped_column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4),
+]
+
+
+created_at = Annotated[
+    datetime, mapped_column(server_default=text("TIMEZONE('utc', now())"))
 ]
 
 # --------/ Enum types /--------

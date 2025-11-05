@@ -42,6 +42,10 @@ class AccessToken(BaseModel):
     reset_password_token_secret: str
     verification_token_secret: str
 
+class RefreshToken(BaseModel):
+    lifetime_seconds: int = 604800
+
+
 class AdminCred(BaseModel):
     user_model: str
     username_field: str
@@ -101,6 +105,7 @@ class Settings(BaseSettings):
     api: ApiPrefix = ApiPrefix()
     logger: LoggingConfig = LoggingConfig()
     access_token: AccessToken
+    refresh_token: RefreshToken
     super_user: SuperUser
     db: DatabaseConfig
     admin: AdminCred

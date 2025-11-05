@@ -5,9 +5,9 @@ import os
 
 from fastapi import Depends
 from sqlalchemy import String, select, update
-from sqlalchemy.orm import Mapped, mapped_column
+from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from core.config import settings
+from core.config import RefreshToken, settings
 
 os.environ["ADMIN_USER_MODEL"] = settings.admin.user_model
 os.environ["ADMIN_USER_MODEL_USERNAME_FIELD"] = settings.admin.username_field
@@ -22,7 +22,8 @@ from core.database import async_db_helper, get_db
 
 class User(SQLAlchemyBaseUserTableUUID, Base):
     username: Mapped[str] = mapped_column(String(50), unique=True, nullable=False)
-
+    
+    refresh_tokens: Mapped[list["RefreshToken"]] = relationship(back_populates="user")
 
 @register(User, sqlalchemy_sessionmaker=async_db_helper.session_factory)
 class UserAdmin(SqlAlchemyModelAdmin):
