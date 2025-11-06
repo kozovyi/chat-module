@@ -14,7 +14,7 @@ from datetime import datetime
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import ForeignKey, DateTime
 from sqlalchemy.orm import mapped_column, relationship, Mapped
-from sqlalchemy import String, select, update
+from sqlalchemy import String, select, update, LargeBinary
 
 from fastadmin import SqlAlchemyModelAdmin, register, WidgetType, action
 
@@ -40,7 +40,7 @@ class RefreshToken(Base):
     id: Mapped[pk]
     created_at: Mapped[created_at]
     user_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("user.id", ondelete="CASCADE"), nullable=False)
-    hashed_token: Mapped[bytes] = mapped_column(nullable=False)
+    token: Mapped[str] = mapped_column(nullable=False)
     revoked: Mapped[bool] = mapped_column(default=False)
     expires_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False)
 
@@ -53,7 +53,7 @@ class RefreshToken(Base):
 
 @register(RefreshToken, sqlalchemy_sessionmaker=async_db_helper.session_factory)
 class RefreshTokenAdmin(SqlAlchemyModelAdmin):
-    exclude = ("hashed_token", "user") 
+    exclude = ("token", "user") 
     list_display = ("id", "user_id", "created_at", "expires_at", "revoked")
     list_display_links = ("id",)
     list_filter = ("revoked", "created_at")
