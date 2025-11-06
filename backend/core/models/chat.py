@@ -1,4 +1,5 @@
 from datetime import datetime
+from uuid import UUID
 from typing import Optional, List
 from sqlalchemy import ForeignKey, Text, String
 from sqlalchemy.orm import Mapped, mapped_column, relationship
@@ -23,6 +24,17 @@ class Room(Base):
 
     def __str__(self) -> str:
         return f"<Room id={self.id} name={self.name}>"
+    
+class RoomParticipant(Base):
+
+    id: Mapped[int] = mapped_column(primary_key=True)
+    room_id: Mapped[UUID] = mapped_column(ForeignKey("rooms.id", ondelete="CASCADE"))
+    user_id: Mapped[UUID] = mapped_column(ForeignKey("user.id", ondelete="CASCADE"))
+    joined_at: Mapped[datetime] = mapped_column(default=datetime.utcnow)
+    is_admin: Mapped[bool] = mapped_column(default=False)
+
+    room: Mapped["Room"] = relationship(back_populates="participants")
+    user: Mapped["User"] = relationship()
 
 class Message(Base):
 
