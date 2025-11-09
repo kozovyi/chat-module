@@ -2,6 +2,9 @@
 from typing import Dict, TYPE_CHECKING
 from uuid import UUID
 from fastapi import WebSocket, WebSocketDisconnect
+import logging
+
+logger = logging.getLogger("app.modules.chat")
 
 
 class ConnectionManager:

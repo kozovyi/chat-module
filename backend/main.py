@@ -5,6 +5,7 @@ from contextlib import asynccontextmanager
 import uvicorn
 import os
 
+from core.logging import logger
 from core.config import settings
 from core.database import async_db_helper
 from api.routers import router
@@ -22,6 +23,7 @@ origins = [
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
+    logger.info("Application started successfully")
     # startup
     yield
     # shutdown
@@ -42,6 +44,7 @@ app.add_middleware(
 
 
 if __name__ == "__main__":
+    logger.warning("hell yea")
     uvicorn.run(
         "main:app",
         host=settings.run.host,
