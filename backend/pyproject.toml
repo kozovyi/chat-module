@@ -25,6 +25,7 @@ dependencies = [
     "bcrypt==4.0.1",
     "websockets>=15.0.1",
     "fastadmin[fastapi]>=0.2.22",
+    "redis>=7.1.0",
 ]
 
 [dependency-groups]

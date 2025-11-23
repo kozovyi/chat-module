@@ -16,7 +16,7 @@ services:
     build:
       context: .
       dockerfile: backend/Dockerfile
-    container_name: planex-app
+    container_name: app-backend
     depends_on:
       - db-postgres
     ports: 
@@ -24,5 +24,45 @@ services:
     command: >
       sh -c "python3 run.py"  
 
+  storage-redis:
+    image: redis:alpine
+    container_name: storage-redis
+    restart: unless-stopped
+    env_file:
+      - ./backend/core/.env
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+      - ./redis.conf:/usr/local/etc/redis/redis.conf
+    networks:
+      - redis_network
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf", "--requirepass", "${REDIS_PASSWORD}"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "${REDIS_PASSWORD}", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 3
+    
+  redis-insight:
+    image: redis/redisinsight:latest
+    container_name: redis-insight
+    restart: unless-stopped
+    ports:
+      - "5540:5540"
+    volumes:
+      - redis_insight_data:/data
+    networks:
+      - redis_network
+    depends_on:
+      - storage-redis
+
+
 volumes:
+  redis_data:
+  redis_insight_data:
   postgres_data:
+
+networks:
+  redis_network:
+    driver: bridge
