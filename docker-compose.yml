@@ -12,17 +12,17 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
-  app-backend:
-    build:
-      context: .
-      dockerfile: backend/Dockerfile
-    container_name: app-backend
-    depends_on:
-      - db-postgres
-    ports: 
-      - "8000:8000"
-    command: >
-      sh -c "python3 run.py"  
+  # app-backend:
+  #   build:
+  #     context: .
+  #     dockerfile: backend/Dockerfile
+  #   container_name: app-backend
+  #   depends_on:
+  #     - db-postgres
+  #   ports: 
+  #     - "8000:8000"
+  #   command: >
+  #     sh -c "python3 run.py"  
 
   storage-redis:
     image: redis:alpine
@@ -34,12 +34,11 @@ services:
       - "6379:6379"
     volumes:
       - redis_data:/data
-      - ./redis.conf:/usr/local/etc/redis/redis.conf
     networks:
       - redis_network
-    command: ["redis-server", "/usr/local/etc/redis/redis.conf", "--requirepass", "${REDIS_PASSWORD}"]
+    command: ["redis-server", "--appendonly", "yes", "--requirepass", "$REDIS_PASSWORD"]
     healthcheck:
-      test: ["CMD", "redis-cli", "-a", "${REDIS_PASSWORD}", "ping"]
+      test: ["CMD", "redis-cli", "-a", "$REDIS_PASSWORD", "ping"]
       interval: 5s
       timeout: 5s
       retries: 3
