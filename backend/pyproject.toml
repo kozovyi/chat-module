@@ -26,7 +26,6 @@ dependencies = [
     "websockets>=15.0.1",
     "fastadmin[fastapi]>=0.2.22",
     "redis>=7.1.0",
-    "aioredis>=2.0.1",
 ]
 
 [dependency-groups]

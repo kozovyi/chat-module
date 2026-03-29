@@ -4,16 +4,17 @@ from uuid import UUID
 from fastapi import WebSocket, WebSocketDisconnect
 import logging
 
+
 logger = logging.getLogger("app.modules.chat")
 
 
 class ConnectionManager:
     def __init__(self):
-        self.connections: dict[UUID, WebSocket] = {}
+        self.connections: dict[UUID, dict[UUID, WebSocket]] = {}
 
     async def connect(self, websocket: WebSocket,user_id: UUID, room_id: UUID):
         await websocket.accept()
-        self.connections[user_id] = websocket
+        self.connections[user_id][room_id] = websocket
 
     def disconnect(self, websocket: WebSocket, client_id: UUID, room_id: UUID):
         pass

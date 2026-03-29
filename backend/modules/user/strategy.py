@@ -10,9 +10,9 @@ from fastapi_users.jwt import generate_jwt, SecretType, decode_jwt
 from fastapi_users.manager import BaseUserManager
 import jwt
 
-from core.auth.repo_jwt import RefreshTokenRepo
+from modules.user.dependencies import get_refresh_token_manager
+from modules.user.repository import RefreshTokenRepo
 from core.config import RefreshToken, settings
-from core.database import get_db
 
 
 class RefreshJWTStrategy(JWTStrategy, Strategy[models.UP, models.ID], Generic[models.UP, models.ID]):
@@ -32,7 +32,7 @@ class RefreshJWTStrategy(JWTStrategy, Strategy[models.UP, models.ID], Generic[mo
         self.algorithm = algorithm
         self.public_key = public_key
     
-    async def write_token(self, user: models.UP, session: AsyncSession) -> Dict[str, str]:
+    async def write_token(self, user: models.UP, refresh_manager: RefreshTokenRepo) -> Dict[str, str]:
         access_data = {"sub": str(user.id), "aud": self.token_audience, "type": "access"}
         refresh_data = {"sub": str(user.id), "aud": self.token_audience, "type": "refresh"}
 
@@ -44,7 +44,7 @@ class RefreshJWTStrategy(JWTStrategy, Strategy[models.UP, models.ID], Generic[mo
         )
 
         expires_at = datetime.now(timezone.utc) + timedelta(seconds=self.refresh_lifetime_seconds)
-        await RefreshTokenRepo.create(user_id=user.id, raw_token=refresh_token, expires_at=expires_at, session=session)
+        await refresh_manager.create(user_id=user.id, raw_token=refresh_token, expires_at=expires_at)
 
         return {
             "access_token": access_token,
@@ -52,7 +52,7 @@ class RefreshJWTStrategy(JWTStrategy, Strategy[models.UP, models.ID], Generic[mo
         }
 
     async def refresh_tokens(
-        self, refresh_token: str, user_manager: BaseUserManager[models.UP, models.ID], session: AsyncSession, 
+        self, refresh_token: str, user_manager: BaseUserManager[models.UP, models.ID], refresh_manager: RefreshTokenRepo
     ) -> Dict[str, str]:
         user = await self.read_token(refresh_token, user_manager)
         if user is None:
@@ -71,7 +71,7 @@ class RefreshJWTStrategy(JWTStrategy, Strategy[models.UP, models.ID], Generic[mo
                     detail="Invalid token type (must be refresh)",
                 )
             try:
-                token = await RefreshTokenRepo.get(raw_token=refresh_token, session=session)
+                token = await refresh_manager.get(raw_token=refresh_token)
             except:
                 raise HTTPException(
                     status_code=status.HTTP_401_UNAUTHORIZED,
@@ -83,16 +83,16 @@ class RefreshJWTStrategy(JWTStrategy, Strategy[models.UP, models.ID], Generic[mo
                     detail="Invalid or expired refresh token",
                 )
 
-            await RefreshTokenRepo.revoke(raw_token=refresh_token, session=session)
+            await refresh_manager.revoke(raw_token=refresh_token)
         except jwt.PyJWTError:
             raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token")
         except Exception as e:
             raise e
 
-        return await self.write_token(user, session)
+        return await self.write_token(user, refresh_manager=refresh_manager)
 
-    async def destroy_token(self, refresh_token: str, session: AsyncSession):
-        return await RefreshTokenRepo.revoke(raw_token=refresh_token, session=session)
+    async def destroy_token(self, refresh_token: str, refresh_manager: RefreshTokenRepo):
+        return await refresh_manager.revoke(raw_token=refresh_token)
 
 
 def get_jwt_strategy() -> JWTStrategy:

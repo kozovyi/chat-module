@@ -5,7 +5,7 @@ from sqlalchemy import ForeignKey, Text, String
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from core.models.base import Base
-from core.models.user import User
+from modules.user.model import User
 
 
 
@@ -28,7 +28,7 @@ class Room(Base):
 class RoomParticipant(Base):
 
     id: Mapped[int] = mapped_column(primary_key=True)
-    room_id: Mapped[UUID] = mapped_column(ForeignKey("rooms.id", ondelete="CASCADE"))
+    room_id: Mapped[UUID] = mapped_column(ForeignKey("room.id", ondelete="CASCADE"))
     user_id: Mapped[UUID] = mapped_column(ForeignKey("user.id", ondelete="CASCADE"))
     joined_at: Mapped[datetime] = mapped_column(default=datetime.utcnow)
     is_admin: Mapped[bool] = mapped_column(default=False)

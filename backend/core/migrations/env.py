@@ -6,8 +6,9 @@ from sqlalchemy import pool
 from alembic import context
 
 from core.config import settings
-from core.models import *
 from core.models import Base
+from modules.user.model import User, AccessToken, RefreshToken
+from modules.chat.model import Room, Message, RoomParticipant
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.

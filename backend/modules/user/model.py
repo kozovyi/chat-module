@@ -1,3 +1,26 @@
+import uuid
+import typing as tp
+
+
+import bcrypt
+from fastapi import Depends
+from sqlalchemy import update
+from fastapi_users_db_sqlalchemy.access_token import (
+    SQLAlchemyAccessTokenDatabase,
+    SQLAlchemyBaseAccessTokenTableUUID,
+)
+from datetime import datetime
+
+from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy import ForeignKey, DateTime
+from sqlalchemy.orm import mapped_column, relationship, Mapped
+from sqlalchemy import String, select, update, LargeBinary
+
+from fastadmin import SqlAlchemyModelAdmin, register, WidgetType, action
+
+from core.models.base import Base, created_at, pk
+from core.database import db_manager_async
+
 import typing as tp
 import uuid
 import bcrypt
@@ -5,27 +28,44 @@ import os
 
 from fastapi import Depends
 from sqlalchemy import String, select, update
-from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from core.config import RefreshToken, settings
+from core.config import settings
 
 os.environ["ADMIN_USER_MODEL"] = settings.admin.user_model
 os.environ["ADMIN_USER_MODEL_USERNAME_FIELD"] = settings.admin.username_field
 os.environ["ADMIN_SECRET_KEY"] = settings.admin.secret_key
 
-from fastapi_users.db import SQLAlchemyBaseUserTableUUID, SQLAlchemyUserDatabase
+from fastapi_users_db_sqlalchemy import SQLAlchemyBaseUserTableUUID
 from fastadmin import SqlAlchemyModelAdmin, register
 
 from core.models.base import Base
-from core.database import async_db_helper, get_db
 
 
 class User(SQLAlchemyBaseUserTableUUID, Base):
     username: Mapped[str] = mapped_column(String(50), unique=True, nullable=False)
-    
     refresh_tokens: Mapped[list["RefreshToken"]] = relationship(back_populates="user")
 
-@register(User, sqlalchemy_sessionmaker=async_db_helper.session_factory)
+class AccessToken(SQLAlchemyBaseAccessTokenTableUUID, Base):  
+    pass
+
+class RefreshToken(Base):
+
+    id: Mapped[pk]
+    created_at: Mapped[created_at]
+    user_id: Mapped[uuid.UUID] = mapped_column(ForeignKey("user.id", ondelete="CASCADE"), nullable=False)
+    token: Mapped[str] = mapped_column(nullable=False)
+    revoked: Mapped[bool] = mapped_column(default=False)
+    expires_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False)
+
+    user: Mapped["User"] = relationship(
+        back_populates="refresh_tokens",
+    )
+    def __str__(self):
+        return f"Token {str(self.id)[:8]}"
+
+
+
+@register(User, sqlalchemy_sessionmaker=db_manager_async.session)
 class UserAdmin(SqlAlchemyModelAdmin):
     exclude = ("hashed_password",)
     list_display = ("id", "username", "is_superuser", "is_active")
@@ -60,3 +100,12 @@ class UserAdmin(SqlAlchemyModelAdmin):
             query = update(self.model_cls).where(User.id.in_([obj.id])).values(**{field: base64}) #type: ignore
             await session.execute(query)
             await session.commit()
+            
+
+@register(RefreshToken, sqlalchemy_sessionmaker=db_manager_async.session)
+class RefreshTokenAdmin(SqlAlchemyModelAdmin):
+    exclude = ("token", "user") 
+    list_display = ("id", "user_id", "created_at", "expires_at", "revoked")
+    list_display_links = ("id",)
+    list_filter = ("revoked", "created_at")
+    search_fields = ("id",)

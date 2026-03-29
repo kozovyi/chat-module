@@ -7,8 +7,8 @@ import os
 
 from core.logging import logger
 from core.config import settings
-from core.database import async_db_helper
-from api.routers import router
+from core.database import db_manager_async
+from modules import router
 
 os.environ["APP_CONFIG__DB__HOST"] = "localhost"
 
@@ -27,7 +27,7 @@ async def lifespan(app: FastAPI):
     # startup
     yield
     # shutdown
-    await async_db_helper.dispose()
+    await db_manager_async.dispose()
 
 
 app = FastAPI(lifespan=lifespan)

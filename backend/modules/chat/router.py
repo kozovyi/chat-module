@@ -3,9 +3,9 @@ from uuid import UUID
 import json
 from datetime import datetime
 
-from core.models.user import User
-from  modules.chat.manager import manager
-from core.auth.router import fastapi_users
+from modules.user.model import User
+from modules.chat.manager import manager
+from modules.user.router import fastapi_users
 import logging
 
 current_active_user = fastapi_users.current_user(active=True)
@@ -17,7 +17,6 @@ router = APIRouter()
 
 @router.websocket("/chat/{room_id}")
 async def websocket_endpoint(websocket: WebSocket, room_id: UUID, client: User = Depends(current_active_user)):
-    
     await manager.connect(websocket, client.id, room_id)
     try:
         while True:

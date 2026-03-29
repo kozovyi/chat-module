@@ -6,7 +6,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from fastapi_users_db_sqlalchemy.access_token import SQLAlchemyAccessTokenDatabase
 
 from core.database import db_manager_async
-from modules.user.model import AccessToken, RefreshToken, User
+from modules.user.model import AccessToken, User
 from modules.user.manager import UserManager
 from modules.user.repository import RefreshTokenRepo
 

@@ -2,6 +2,7 @@ from sqlalchemy.ext.asyncio import create_async_engine, AsyncEngine, async_sessi
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import create_engine, Engine
 from abc import ABC, abstractmethod
+from fastapi_users_db_sqlalchemy import SQLAlchemyUserDatabase
 
 from core.config import settings
 
@@ -25,9 +26,8 @@ class Database(ABC):
         pass
 
     @abstractmethod
-    def session_getter(self):
+    def session(self):
         pass
-
 
 class DatabaseHelperSync(Database):
 
@@ -55,10 +55,9 @@ class DatabaseHelperSync(Database):
     def dispose(self) -> None:
         self.engine.dispose()
 
-    def session_getter(self):
+    def session(self):
         with self.session_factory() as session:
             yield session
-
 
 class DatabaseHelperAsync(Database):
 
@@ -88,13 +87,13 @@ class DatabaseHelperAsync(Database):
 
     async def dispose(self):
         await self.engine.dispose()  # type: ignore
-
-    async def session_getter(self):
+    
+    async def session(self):
         async with self.session_factory() as session:
             yield session
 
 
-async_db_helper = DatabaseHelperAsync(
+db_manager_async = DatabaseHelperAsync(
     url=settings.db.DB_URL_ASYNCPG,
     max_overflow=settings.db.max_overflow,
     pool_size=settings.db.pool_size,
@@ -102,12 +101,10 @@ async_db_helper = DatabaseHelperAsync(
     echo_pool=settings.db.echo_pool,
 )
 
-sync_db_helper = DatabaseHelperSync(
+db_manager_sync = DatabaseHelperSync(
     url=settings.db.DB_URL_PSYCOPG,
     max_overflow=settings.db.max_overflow,
     pool_size=settings.db.pool_size,
     echo=settings.db.echo,
     echo_pool=settings.db.echo_pool,
 )
-
-get_db = async_db_helper.session_getter

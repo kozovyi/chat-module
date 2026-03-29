@@ -12,11 +12,15 @@ from fastapi_users.manager import BaseUserManager, UserManagerDependency
 from fastapi_users.openapi import OpenAPIResponseType
 from fastapi_users.router.common import ErrorCode, ErrorModel
 
-from core.models.user import User
-from core.auth.manager import UserManager
-from core.auth.backend import CustomAuthenticationBackend, auth_backend
-from core.auth.strategy import RefreshJWTStrategy
-from core.database import get_db
+from modules.user.dependencies import get_refresh_token_manager, get_user_manager
+from modules.user.model import User
+from modules.user.manager import UserManager
+from modules.user.backend import CustomAuthenticationBackend, auth_backend
+from modules.user.repository import RefreshTokenRepo
+from modules.user.strategy import RefreshJWTStrategy
+from core.database import db_manager_async
+
+from modules.user.schemas import UserCreate, UserRead, UserUpdate
 
 
 def get_auth_router(
@@ -57,8 +61,9 @@ def get_auth_router(
         request: Request,
         credentials: OAuth2PasswordRequestForm = Depends(),
         user_manager: BaseUserManager[models.UP, models.ID] = Depends(get_user_manager),
+        refresh_manager: RefreshTokenRepo = Depends(get_refresh_token_manager),
         strategy: Strategy[models.UP, models.ID] = Depends(backend.get_strategy),
-        session: AsyncSession = Depends(get_db)
+        session: AsyncSession = Depends(db_manager_async.session)
     ):
         user = await user_manager.authenticate(credentials)
 
@@ -72,7 +77,7 @@ def get_auth_router(
                 status_code=status.HTTP_400_BAD_REQUEST,
                 detail=ErrorCode.LOGIN_USER_NOT_VERIFIED,
             )
-        response = await backend.login(strategy, user ,session)
+        response = await backend.login(strategy, user, session, refresh_manager)
         await user_manager.on_after_login(user, request, response)
         return response
 
@@ -89,22 +94,23 @@ def get_auth_router(
     async def logout(
         refresh_token: str = Body(..., embed=True),
         strategy: RefreshJWTStrategy = Depends(backend.get_strategy),
-        session: AsyncSession = Depends(get_db)
+        refresh_manager: RefreshTokenRepo = Depends(get_refresh_token_manager),
+        session: AsyncSession = Depends(db_manager_async.session)
     ):
-        return await backend.logout(strategy, refresh_token, session)
+        return await backend.logout(strategy, refresh_token, session, refresh_manager)
 
     @router.post("/refresh")
     async def refresh_token(
         refresh_token: str = Body(..., embed=True),
         user_manager: BaseUserManager[models.UP, models.ID] = Depends(get_user_manager),
         strategy: RefreshJWTStrategy = Depends(backend.get_strategy),
-        session: AsyncSession = Depends(get_db)
+        refresh_manager: RefreshTokenRepo = Depends(get_refresh_token_manager),
+        session: AsyncSession = Depends(db_manager_async.session)
 
     ):
-        return await backend.refresh(refresh_token=refresh_token, strategy=strategy, session=session, user_manager=user_manager)
+        return await backend.refresh(refresh_token=refresh_token, strategy=strategy, session=session, user_manager=user_manager, refresh_manager=refresh_manager)
 
     return router
-
 
 class FastAPIUsersRefresh(FastAPIUsers, Generic[models.UP, models.ID]):
     
@@ -126,7 +132,16 @@ class FastAPIUsersRefresh(FastAPIUsers, Generic[models.UP, models.ID]):
         )
 
 fastapi_users = FastAPIUsersRefresh[User, uuid.UUID](
-    UserManager.get_user_manager,
+    get_user_manager,
     [auth_backend],
 )
 
+
+user_router = APIRouter()
+auth_jwt_router = APIRouter()
+
+auth_jwt_router.include_router(fastapi_users.get_auth_router(auth_backend))
+user_router.include_router(fastapi_users.get_register_router(UserRead, UserCreate))
+user_router.include_router(fastapi_users.get_verify_router(UserRead))
+user_router.include_router(fastapi_users.get_reset_password_router())
+user_router.include_router(fastapi_users.get_users_router(UserRead, UserUpdate))

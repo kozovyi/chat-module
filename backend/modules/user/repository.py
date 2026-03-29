@@ -38,9 +38,8 @@ class RefreshTokenRepo:
             RefreshToken.revoked == False
         )
         token = await self.session.scalar(stmt)
-        
         if token:
-            if token.expires_at < datetime.utcnow():
+            if token.expires_at < datetime.now(timezone.utc):
                 token.revoked = True
                 await self.session.commit()
                 await self.session.refresh(token)

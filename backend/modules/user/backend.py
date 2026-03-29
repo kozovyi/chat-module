@@ -16,9 +16,10 @@ from fastapi_users.authentication.transport import (
 from fastapi_users.types import DependencyCallable
 
 
-from core.auth.transport import BearerTransport, bearer_transport
-from core.auth.strategy import RefreshJWTStrategy, get_jwt_strategy
+from modules.user.transport import BearerTransport, bearer_transport
+from modules.user.strategy import RefreshJWTStrategy, get_jwt_strategy
 from core.config import RefreshToken
+from modules.user.repository import RefreshTokenRepo
 
 class CustomAuthenticationBackend(AuthenticationBackend, Generic[models.UP, models.ID]):
     """
@@ -46,16 +47,16 @@ class CustomAuthenticationBackend(AuthenticationBackend, Generic[models.UP, mode
         self.get_strategy = get_strategy
 
     async def login(
-        self, strategy: Strategy[models.UP, models.ID], user: models.UP, session: AsyncSession
+        self, strategy: Strategy[models.UP, models.ID], user: models.UP, session: AsyncSession, refresh_manager: RefreshTokenRepo
     ) -> Response:
-        tokens = await strategy.write_token(user, session) #type: ignore
+        tokens = await strategy.write_token(user, refresh_manager=refresh_manager)#type: ignore
         return await self.transport.get_login_response(tokens["access_token"], tokens["refresh_token"]) #type: ignore
 
     async def logout(
-        self, strategy:  RefreshJWTStrategy, refresh_token: str, session: AsyncSession
+        self, strategy:  RefreshJWTStrategy, refresh_token: str, session: AsyncSession, refresh_manager: RefreshTokenRepo
     ) -> Response:
         try:
-            await strategy.destroy_token(refresh_token, session=session)
+            await strategy.destroy_token(refresh_token, refresh_manager=refresh_manager)
         except StrategyDestroyNotSupportedError:
             pass
 
@@ -67,10 +68,10 @@ class CustomAuthenticationBackend(AuthenticationBackend, Generic[models.UP, mode
         return response
     
     async def refresh(
-        self, refresh_token, strategy: RefreshJWTStrategy[models.UP, models.ID], session: AsyncSession, user_manager: BaseUserManager[models.UP, models.ID]
+        self, refresh_token, strategy: RefreshJWTStrategy[models.UP, models.ID], session: AsyncSession, user_manager: BaseUserManager[models.UP, models.ID], refresh_manager: RefreshTokenRepo
     )-> Response:
         try:
-            tokens = await strategy.refresh_tokens(refresh_token=refresh_token, session=session, user_manager=user_manager)
+            tokens = await strategy.refresh_tokens(refresh_token=refresh_token, user_manager=user_manager, refresh_manager=refresh_manager)
             return await self.transport.get_refresh_response(access_token=tokens["access_token"], refresh_token=tokens["refresh_token"])
         except Exception as e:
             raise e
