@@ -1,48 +1,37 @@
 services:
 
   db-postgres:
-    image: postgres
+    image: postgres:16-alpine 
     container_name: db-postgres
     restart: always
-    shm_size: 1024mb
-    env_file:
-      - ./backend/core/.env
+    environment:
+      - POSTGRES_USER=${APP_CONFIG__DB__USER}
+      - POSTGRES_PASSWORD=${APP_CONFIG__DB__PASS}
+      - POSTGRES_DB=${APP_CONFIG__DB__NAME}
     ports:
-      - "5432:5432"
+      - "${APP_CONFIG__DB__PORT}:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
-  # app-backend:
-  #   build:
-  #     context: .
-  #     dockerfile: backend/Dockerfile
-  #   container_name: app-backend
-  #   depends_on:
-  #     - db-postgres
-  #   ports: 
-  #     - "8000:8000"
-  #   command: >
-  #     sh -c "python3 run.py"  
-
   storage-redis:
-    image: redis:alpine
-    container_name: storage-redis
-    restart: unless-stopped
-    env_file:
-      - ./backend/core/.env
-    ports:
-      - "6379:6379"
-    volumes:
-      - redis_data:/data
-    networks:
-      - redis_network
-    command: ["redis-server", "--appendonly", "yes", "--requirepass", "$REDIS_PASSWORD"]
-    healthcheck:
-      test: ["CMD", "redis-cli", "-a", "$REDIS_PASSWORD", "ping"]
-      interval: 5s
-      timeout: 5s
-      retries: 3
-    
+      image: redis:alpine
+      container_name: storage-redis
+      restart: always
+      environment:
+        - REDIS_PASSWORD=${APP_CONFIG__REDIS__PASS}
+      command: ["redis-server", "--appendonly", "yes", "--requirepass", "${APP_CONFIG__REDIS__PASS}"]
+      
+      healthcheck:
+        test: ["CMD", "redis-cli", "-a", "${APP_CONFIG__REDIS__PASS}", "ping"]
+        interval: 5s
+        timeout: 5s
+        retries: 3
+
+      ports:
+        - "${APP_CONFIG__REDIS__PORT}:6379"
+      networks:
+        - redis_network
+
   redis-insight:
     image: redis/redisinsight:latest
     container_name: redis-insight
@@ -55,6 +44,19 @@ services:
       - redis_network
     depends_on:
       - storage-redis
+  
+  # app-backend:
+  #   build:
+  #     context: .
+  #     dockerfile: backend/Dockerfile
+  #   container_name: app-backend
+  #   depends_on:
+  #     - db-postgres
+  #   ports: 
+  #     - "8000:8000"
+  #   command: >
+  #     sh -c "python3 run.py"  
+
 
 
 volumes:

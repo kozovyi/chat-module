@@ -1,0 +1,3310 @@
+[
+    {
+        "label": "runpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "runpy",
+        "description": "runpy",
+        "detail": "runpy",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "core.database",
+        "description": "core.database",
+        "isExtraImport": true,
+        "detail": "core.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "core.database",
+        "description": "core.database",
+        "isExtraImport": true,
+        "detail": "core.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "core.database",
+        "description": "core.database",
+        "isExtraImport": true,
+        "detail": "core.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "core.database",
+        "description": "core.database",
+        "isExtraImport": true,
+        "detail": "core.database",
+        "documentation": {}
+    },
+    {
+        "label": "async_db_helper",
+        "importPath": "core.database",
+        "description": "core.database",
+        "isExtraImport": true,
+        "detail": "core.database",
+        "documentation": {}
+    },
+    {
+        "label": "async_db_helper",
+        "importPath": "core.database",
+        "description": "core.database",
+        "isExtraImport": true,
+        "detail": "core.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "core.database",
+        "description": "core.database",
+        "isExtraImport": true,
+        "detail": "core.database",
+        "documentation": {}
+    },
+    {
+        "label": "async_db_helper",
+        "importPath": "core.database",
+        "description": "core.database",
+        "isExtraImport": true,
+        "detail": "core.database",
+        "documentation": {}
+    },
+    {
+        "label": "async_db_helper",
+        "importPath": "core.database",
+        "description": "core.database",
+        "isExtraImport": true,
+        "detail": "core.database",
+        "documentation": {}
+    },
+    {
+        "label": "fastapi",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "WebSocket",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "WebSocketDisconnect",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Body",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "WebSocket",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "WebSocketDisconnect",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "fastapi_users_db_sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "fastapi_users_db_sqlalchemy",
+        "description": "fastapi_users_db_sqlalchemy",
+        "detail": "fastapi_users_db_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemyUserDatabase",
+        "importPath": "fastapi_users_db_sqlalchemy",
+        "description": "fastapi_users_db_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "fastapi_users_db_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "modules.user.schemas",
+        "description": "modules.user.schemas",
+        "isExtraImport": true,
+        "detail": "modules.user.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserRead",
+        "importPath": "modules.user.schemas",
+        "description": "modules.user.schemas",
+        "isExtraImport": true,
+        "detail": "modules.user.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserUpdate",
+        "importPath": "modules.user.schemas",
+        "description": "modules.user.schemas",
+        "isExtraImport": true,
+        "detail": "modules.user.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "modules.user.schemas",
+        "description": "modules.user.schemas",
+        "isExtraImport": true,
+        "detail": "modules.user.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "auth_backend",
+        "importPath": "core.auth.backend",
+        "description": "core.auth.backend",
+        "isExtraImport": true,
+        "detail": "core.auth.backend",
+        "documentation": {}
+    },
+    {
+        "label": "CustomAuthenticationBackend",
+        "importPath": "core.auth.backend",
+        "description": "core.auth.backend",
+        "isExtraImport": true,
+        "detail": "core.auth.backend",
+        "documentation": {}
+    },
+    {
+        "label": "auth_backend",
+        "importPath": "core.auth.backend",
+        "description": "core.auth.backend",
+        "isExtraImport": true,
+        "detail": "core.auth.backend",
+        "documentation": {}
+    },
+    {
+        "label": "fastapi_users",
+        "importPath": "core.auth.router",
+        "description": "core.auth.router",
+        "isExtraImport": true,
+        "detail": "core.auth.router",
+        "documentation": {}
+    },
+    {
+        "label": "fastapi_users",
+        "importPath": "core.auth.router",
+        "description": "core.auth.router",
+        "isExtraImport": true,
+        "detail": "core.auth.router",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "uuid",
+        "description": "uuid",
+        "isExtraImport": true,
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "core.models.user",
+        "description": "core.models.user",
+        "isExtraImport": true,
+        "detail": "core.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "core.models.user",
+        "description": "core.models.user",
+        "isExtraImport": true,
+        "detail": "core.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "core.models.user",
+        "description": "core.models.user",
+        "isExtraImport": true,
+        "detail": "core.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "core.models.user",
+        "description": "core.models.user",
+        "isExtraImport": true,
+        "detail": "core.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "core.models.user",
+        "description": "core.models.user",
+        "isExtraImport": true,
+        "detail": "core.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "core.models.user",
+        "description": "core.models.user",
+        "isExtraImport": true,
+        "detail": "core.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "manager",
+        "importPath": "modules.chat.manager",
+        "description": "modules.chat.manager",
+        "isExtraImport": true,
+        "detail": "modules.chat.manager",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "Formatter",
+        "importPath": "logging",
+        "description": "logging",
+        "isExtraImport": true,
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncSession",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "create_async_engine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncEngine",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "async_sessionmaker",
+        "importPath": "sqlalchemy.ext.asyncio",
+        "description": "sqlalchemy.ext.asyncio",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationBackend",
+        "importPath": "fastapi_users.authentication",
+        "description": "fastapi_users.authentication",
+        "isExtraImport": true,
+        "detail": "fastapi_users.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationBackend",
+        "importPath": "fastapi_users.authentication",
+        "description": "fastapi_users.authentication",
+        "isExtraImport": true,
+        "detail": "fastapi_users.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "Authenticator",
+        "importPath": "fastapi_users.authentication",
+        "description": "fastapi_users.authentication",
+        "isExtraImport": true,
+        "detail": "fastapi_users.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "Strategy",
+        "importPath": "fastapi_users.authentication",
+        "description": "fastapi_users.authentication",
+        "isExtraImport": true,
+        "detail": "fastapi_users.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "JWTStrategy",
+        "importPath": "fastapi_users.authentication",
+        "description": "fastapi_users.authentication",
+        "isExtraImport": true,
+        "detail": "fastapi_users.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "typing",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "typing",
+        "description": "typing",
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Generic",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Generic",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Generic",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TYPE_CHECKING",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TYPE_CHECKING",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "BaseUserManager",
+        "importPath": "fastapi_users",
+        "description": "fastapi_users",
+        "isExtraImport": true,
+        "detail": "fastapi_users",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "fastapi_users",
+        "description": "fastapi_users",
+        "isExtraImport": true,
+        "detail": "fastapi_users",
+        "documentation": {}
+    },
+    {
+        "label": "BaseUserManager",
+        "importPath": "fastapi_users",
+        "description": "fastapi_users",
+        "isExtraImport": true,
+        "detail": "fastapi_users",
+        "documentation": {}
+    },
+    {
+        "label": "UUIDIDMixin",
+        "importPath": "fastapi_users",
+        "description": "fastapi_users",
+        "isExtraImport": true,
+        "detail": "fastapi_users",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPIUsers",
+        "importPath": "fastapi_users",
+        "description": "fastapi_users",
+        "isExtraImport": true,
+        "detail": "fastapi_users",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "fastapi_users",
+        "description": "fastapi_users",
+        "isExtraImport": true,
+        "detail": "fastapi_users",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "fastapi_users",
+        "description": "fastapi_users",
+        "isExtraImport": true,
+        "detail": "fastapi_users",
+        "documentation": {}
+    },
+    {
+        "label": "exceptions",
+        "importPath": "fastapi_users",
+        "description": "fastapi_users",
+        "isExtraImport": true,
+        "detail": "fastapi_users",
+        "documentation": {}
+    },
+    {
+        "label": "schemas",
+        "importPath": "fastapi_users",
+        "description": "fastapi_users",
+        "isExtraImport": true,
+        "detail": "fastapi_users",
+        "documentation": {}
+    },
+    {
+        "label": "Strategy",
+        "importPath": "fastapi_users.authentication.strategy",
+        "description": "fastapi_users.authentication.strategy",
+        "isExtraImport": true,
+        "detail": "fastapi_users.authentication.strategy",
+        "documentation": {}
+    },
+    {
+        "label": "StrategyDestroyNotSupportedError",
+        "importPath": "fastapi_users.authentication.strategy",
+        "description": "fastapi_users.authentication.strategy",
+        "isExtraImport": true,
+        "detail": "fastapi_users.authentication.strategy",
+        "documentation": {}
+    },
+    {
+        "label": "Transport",
+        "importPath": "fastapi_users.authentication.transport",
+        "description": "fastapi_users.authentication.transport",
+        "isExtraImport": true,
+        "detail": "fastapi_users.authentication.transport",
+        "documentation": {}
+    },
+    {
+        "label": "TransportLogoutNotSupportedError",
+        "importPath": "fastapi_users.authentication.transport",
+        "description": "fastapi_users.authentication.transport",
+        "isExtraImport": true,
+        "detail": "fastapi_users.authentication.transport",
+        "documentation": {}
+    },
+    {
+        "label": "DependencyCallable",
+        "importPath": "fastapi_users.types",
+        "description": "fastapi_users.types",
+        "isExtraImport": true,
+        "detail": "fastapi_users.types",
+        "documentation": {}
+    },
+    {
+        "label": "BearerTransport",
+        "importPath": "core.auth.transport",
+        "description": "core.auth.transport",
+        "isExtraImport": true,
+        "detail": "core.auth.transport",
+        "documentation": {}
+    },
+    {
+        "label": "bearer_transport",
+        "importPath": "core.auth.transport",
+        "description": "core.auth.transport",
+        "isExtraImport": true,
+        "detail": "core.auth.transport",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshJWTStrategy",
+        "importPath": "core.auth.strategy",
+        "description": "core.auth.strategy",
+        "isExtraImport": true,
+        "detail": "core.auth.strategy",
+        "documentation": {}
+    },
+    {
+        "label": "get_jwt_strategy",
+        "importPath": "core.auth.strategy",
+        "description": "core.auth.strategy",
+        "isExtraImport": true,
+        "detail": "core.auth.strategy",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshJWTStrategy",
+        "importPath": "core.auth.strategy",
+        "description": "core.auth.strategy",
+        "isExtraImport": true,
+        "detail": "core.auth.strategy",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshToken",
+        "importPath": "core.config",
+        "description": "core.config",
+        "isExtraImport": true,
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "core.config",
+        "description": "core.config",
+        "isExtraImport": true,
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshToken",
+        "importPath": "core.config",
+        "description": "core.config",
+        "isExtraImport": true,
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "core.config",
+        "description": "core.config",
+        "isExtraImport": true,
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "core.config",
+        "description": "core.config",
+        "isExtraImport": true,
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "core.config",
+        "description": "core.config",
+        "isExtraImport": true,
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "core.config",
+        "description": "core.config",
+        "isExtraImport": true,
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshToken",
+        "importPath": "core.config",
+        "description": "core.config",
+        "isExtraImport": true,
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "core.config",
+        "description": "core.config",
+        "isExtraImport": true,
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "core.config",
+        "description": "core.config",
+        "isExtraImport": true,
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "core.config",
+        "description": "core.config",
+        "isExtraImport": true,
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "core.config",
+        "description": "core.config",
+        "isExtraImport": true,
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "core.config",
+        "description": "core.config",
+        "isExtraImport": true,
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_db",
+        "importPath": "api.deps.auth",
+        "description": "api.deps.auth",
+        "isExtraImport": true,
+        "detail": "api.deps.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_db",
+        "importPath": "api.deps.auth",
+        "description": "api.deps.auth",
+        "isExtraImport": true,
+        "detail": "api.deps.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_manager",
+        "importPath": "api.deps.auth",
+        "description": "api.deps.auth",
+        "isExtraImport": true,
+        "detail": "api.deps.auth",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "bcrypt",
+        "description": "bcrypt",
+        "detail": "bcrypt",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "engine_from_config",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Index",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "CheckConstraint",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Float",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "MetaData",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "update",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "update",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "LargeBinary",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "update",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "insert",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "update",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "and_",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemyError",
+        "importPath": "sqlalchemy.exc",
+        "description": "sqlalchemy.exc",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.exc",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshToken",
+        "importPath": "core.models.token",
+        "description": "core.models.token",
+        "isExtraImport": true,
+        "detail": "core.models.token",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "BaseUserManager",
+        "importPath": "fastapi_users.manager",
+        "description": "fastapi_users.manager",
+        "isExtraImport": true,
+        "detail": "fastapi_users.manager",
+        "documentation": {}
+    },
+    {
+        "label": "UserManagerDependency",
+        "importPath": "fastapi_users.manager",
+        "description": "fastapi_users.manager",
+        "isExtraImport": true,
+        "detail": "fastapi_users.manager",
+        "documentation": {}
+    },
+    {
+        "label": "BaseUserManager",
+        "importPath": "fastapi_users.manager",
+        "description": "fastapi_users.manager",
+        "isExtraImport": true,
+        "detail": "fastapi_users.manager",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAPIResponseType",
+        "importPath": "fastapi_users.openapi",
+        "description": "fastapi_users.openapi",
+        "isExtraImport": true,
+        "detail": "fastapi_users.openapi",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAPIResponseType",
+        "importPath": "fastapi_users.openapi",
+        "description": "fastapi_users.openapi",
+        "isExtraImport": true,
+        "detail": "fastapi_users.openapi",
+        "documentation": {}
+    },
+    {
+        "label": "ErrorCode",
+        "importPath": "fastapi_users.router.common",
+        "description": "fastapi_users.router.common",
+        "isExtraImport": true,
+        "detail": "fastapi_users.router.common",
+        "documentation": {}
+    },
+    {
+        "label": "ErrorModel",
+        "importPath": "fastapi_users.router.common",
+        "description": "fastapi_users.router.common",
+        "isExtraImport": true,
+        "detail": "fastapi_users.router.common",
+        "documentation": {}
+    },
+    {
+        "label": "UserManager",
+        "importPath": "core.auth.manager",
+        "description": "core.auth.manager",
+        "isExtraImport": true,
+        "detail": "core.auth.manager",
+        "documentation": {}
+    },
+    {
+        "label": "UserManager",
+        "importPath": "core.auth.manager",
+        "description": "core.auth.manager",
+        "isExtraImport": true,
+        "detail": "core.auth.manager",
+        "documentation": {}
+    },
+    {
+        "label": "Strategy",
+        "importPath": "fastapi_users.authentication.strategy.base",
+        "description": "fastapi_users.authentication.strategy.base",
+        "isExtraImport": true,
+        "detail": "fastapi_users.authentication.strategy.base",
+        "documentation": {}
+    },
+    {
+        "label": "generate_jwt",
+        "importPath": "fastapi_users.jwt",
+        "description": "fastapi_users.jwt",
+        "isExtraImport": true,
+        "detail": "fastapi_users.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "SecretType",
+        "importPath": "fastapi_users.jwt",
+        "description": "fastapi_users.jwt",
+        "isExtraImport": true,
+        "detail": "fastapi_users.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "decode_jwt",
+        "importPath": "fastapi_users.jwt",
+        "description": "fastapi_users.jwt",
+        "isExtraImport": true,
+        "detail": "fastapi_users.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jwt",
+        "description": "jwt",
+        "detail": "jwt",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshTokenRepo",
+        "importPath": "core.auth.repo_jwt",
+        "description": "core.auth.repo_jwt",
+        "isExtraImport": true,
+        "detail": "core.auth.repo_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "EmailStr",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Transport",
+        "importPath": "fastapi_users.authentication.transport.base",
+        "description": "fastapi_users.authentication.transport.base",
+        "isExtraImport": true,
+        "detail": "fastapi_users.authentication.transport.base",
+        "documentation": {}
+    },
+    {
+        "label": "TransportLogoutNotSupportedError",
+        "importPath": "fastapi_users.authentication.transport.base",
+        "description": "fastapi_users.authentication.transport.base",
+        "isExtraImport": true,
+        "detail": "fastapi_users.authentication.transport.base",
+        "documentation": {}
+    },
+    {
+        "label": "model_dump",
+        "importPath": "fastapi_users.schemas",
+        "description": "fastapi_users.schemas",
+        "isExtraImport": true,
+        "detail": "fastapi_users.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "BaseApplication",
+        "importPath": "gunicorn.app.base",
+        "description": "gunicorn.app.base",
+        "isExtraImport": true,
+        "detail": "gunicorn.app.base",
+        "documentation": {}
+    },
+    {
+        "label": "GunicornLogger",
+        "importPath": "core.gunicorn.logger",
+        "description": "core.gunicorn.logger",
+        "isExtraImport": true,
+        "detail": "core.gunicorn.logger",
+        "documentation": {}
+    },
+    {
+        "label": "Logger",
+        "importPath": "gunicorn.glogging",
+        "description": "gunicorn.glogging",
+        "isExtraImport": true,
+        "detail": "gunicorn.glogging",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "postgresql",
+        "importPath": "sqlalchemy.dialects",
+        "description": "sqlalchemy.dialects",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects",
+        "documentation": {}
+    },
+    {
+        "label": "postgresql",
+        "importPath": "sqlalchemy.dialects",
+        "description": "sqlalchemy.dialects",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "declared_attr",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "joinedload",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "lazyload",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "selectinload",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "UUID",
+        "importPath": "sqlalchemy.dialects.postgresql",
+        "description": "sqlalchemy.dialects.postgresql",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.dialects.postgresql",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "camel_case_to_snake_case",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "core.models.base",
+        "description": "core.models.base",
+        "isExtraImport": true,
+        "detail": "core.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "core.models.base",
+        "description": "core.models.base",
+        "isExtraImport": true,
+        "detail": "core.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "created_at",
+        "importPath": "core.models.base",
+        "description": "core.models.base",
+        "isExtraImport": true,
+        "detail": "core.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "pk",
+        "importPath": "core.models.base",
+        "description": "core.models.base",
+        "isExtraImport": true,
+        "detail": "core.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "core.models.base",
+        "description": "core.models.base",
+        "isExtraImport": true,
+        "detail": "core.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemyAccessTokenDatabase",
+        "importPath": "fastapi_users_db_sqlalchemy.access_token",
+        "description": "fastapi_users_db_sqlalchemy.access_token",
+        "isExtraImport": true,
+        "detail": "fastapi_users_db_sqlalchemy.access_token",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemyBaseAccessTokenTableUUID",
+        "importPath": "fastapi_users_db_sqlalchemy.access_token",
+        "description": "fastapi_users_db_sqlalchemy.access_token",
+        "isExtraImport": true,
+        "detail": "fastapi_users_db_sqlalchemy.access_token",
+        "documentation": {}
+    },
+    {
+        "label": "SqlAlchemyModelAdmin",
+        "importPath": "fastadmin",
+        "description": "fastadmin",
+        "isExtraImport": true,
+        "detail": "fastadmin",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "importPath": "fastadmin",
+        "description": "fastadmin",
+        "isExtraImport": true,
+        "detail": "fastadmin",
+        "documentation": {}
+    },
+    {
+        "label": "WidgetType",
+        "importPath": "fastadmin",
+        "description": "fastadmin",
+        "isExtraImport": true,
+        "detail": "fastadmin",
+        "documentation": {}
+    },
+    {
+        "label": "action",
+        "importPath": "fastadmin",
+        "description": "fastadmin",
+        "isExtraImport": true,
+        "detail": "fastadmin",
+        "documentation": {}
+    },
+    {
+        "label": "SqlAlchemyModelAdmin",
+        "importPath": "fastadmin",
+        "description": "fastadmin",
+        "isExtraImport": true,
+        "detail": "fastadmin",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "importPath": "fastadmin",
+        "description": "fastadmin",
+        "isExtraImport": true,
+        "detail": "fastadmin",
+        "documentation": {}
+    },
+    {
+        "label": "fastapi_app",
+        "importPath": "fastadmin",
+        "description": "fastadmin",
+        "isExtraImport": true,
+        "detail": "fastadmin",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemyBaseUserTableUUID",
+        "importPath": "fastapi_users.db",
+        "description": "fastapi_users.db",
+        "isExtraImport": true,
+        "detail": "fastapi_users.db",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemyUserDatabase",
+        "importPath": "fastapi_users.db",
+        "description": "fastapi_users.db",
+        "isExtraImport": true,
+        "detail": "fastapi_users.db",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "SettingsConfigDict",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "aioredis",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "aioredis",
+        "description": "aioredis",
+        "detail": "aioredis",
+        "documentation": {}
+    },
+    {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "contextlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "asynccontextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "uvicorn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uvicorn",
+        "description": "uvicorn",
+        "detail": "uvicorn",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "importPath": "core.logging",
+        "description": "core.logging",
+        "isExtraImport": true,
+        "detail": "core.logging",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "api.routers",
+        "description": "api.routers",
+        "isExtraImport": true,
+        "detail": "api.routers",
+        "documentation": {}
+    },
+    {
+        "label": "Aplicatioin",
+        "importPath": "core.gunicorn.aplication",
+        "description": "core.gunicorn.aplication",
+        "isExtraImport": true,
+        "detail": "core.gunicorn.aplication",
+        "documentation": {}
+    },
+    {
+        "label": "get_app_options",
+        "importPath": "core.gunicorn.app_startup",
+        "description": "core.gunicorn.app_startup",
+        "isExtraImport": true,
+        "detail": "core.gunicorn.app_startup",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "main",
+        "description": "main",
+        "isExtraImport": true,
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"backend\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": ".venv.Scripts.activate_this",
+        "description": ".venv.Scripts.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": ".venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "auth_users_router",
+        "kind": 5,
+        "importPath": "api.routers.auth",
+        "description": "api.routers.auth",
+        "peekOfCode": "auth_users_router = APIRouter()\nauth_jwt_router = APIRouter()\nauth_jwt_router.include_router(fastapi_users.get_auth_router(auth_backend))\nauth_users_router.include_router(fastapi_users.get_register_router(UserRead, UserCreate))\nauth_users_router.include_router(fastapi_users.get_verify_router(UserRead))\nauth_users_router.include_router(fastapi_users.get_reset_password_router())\nauth_users_router.include_router(fastapi_users.get_users_router(UserRead, UserUpdate))",
+        "detail": "api.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "auth_jwt_router",
+        "kind": 5,
+        "importPath": "api.routers.auth",
+        "description": "api.routers.auth",
+        "peekOfCode": "auth_jwt_router = APIRouter()\nauth_jwt_router.include_router(fastapi_users.get_auth_router(auth_backend))\nauth_users_router.include_router(fastapi_users.get_register_router(UserRead, UserCreate))\nauth_users_router.include_router(fastapi_users.get_verify_router(UserRead))\nauth_users_router.include_router(fastapi_users.get_reset_password_router())\nauth_users_router.include_router(fastapi_users.get_users_router(UserRead, UserUpdate))",
+        "detail": "api.routers.auth",
+        "documentation": {}
+    },
+    {
+        "label": "current_active_user",
+        "kind": 5,
+        "importPath": "api.routers.chat",
+        "description": "api.routers.chat",
+        "peekOfCode": "current_active_user = fastapi_users.current_user(active=True)\nlogger = logging.getLogger(\"app.routers.chat\")\nrouter = APIRouter()\n@router.websocket(\"/chat/{room_id}\")\nasync def websocket_endpoint(websocket: WebSocket, room_id: UUID, client: User = Depends(current_active_user)):\n    await manager.connect(websocket, client.id, room_id)\n    try:\n        while True:\n            data = await websocket.receive_text()\n            ...",
+        "detail": "api.routers.chat",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "api.routers.chat",
+        "description": "api.routers.chat",
+        "peekOfCode": "logger = logging.getLogger(\"app.routers.chat\")\nrouter = APIRouter()\n@router.websocket(\"/chat/{room_id}\")\nasync def websocket_endpoint(websocket: WebSocket, room_id: UUID, client: User = Depends(current_active_user)):\n    await manager.connect(websocket, client.id, room_id)\n    try:\n        while True:\n            data = await websocket.receive_text()\n            ...\n    except WebSocketDisconnect:",
+        "detail": "api.routers.chat",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "api.routers.chat",
+        "description": "api.routers.chat",
+        "peekOfCode": "router = APIRouter()\n@router.websocket(\"/chat/{room_id}\")\nasync def websocket_endpoint(websocket: WebSocket, room_id: UUID, client: User = Depends(current_active_user)):\n    await manager.connect(websocket, client.id, room_id)\n    try:\n        while True:\n            data = await websocket.receive_text()\n            ...\n    except WebSocketDisconnect:\n        manager.disconnect(websocket, client.id, room_id)",
+        "detail": "api.routers.chat",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "api.routers.user",
+        "description": "api.routers.user",
+        "peekOfCode": "router = APIRouter()\n@router.post(\"/list\")\nasync def get_user_list():\n    return {\"hey\":\"lol\"}",
+        "detail": "api.routers.user",
+        "documentation": {}
+    },
+    {
+        "label": "CustomAuthenticationBackend",
+        "kind": 6,
+        "importPath": "core.auth.backend",
+        "description": "core.auth.backend",
+        "peekOfCode": "class CustomAuthenticationBackend(AuthenticationBackend, Generic[models.UP, models.ID]):\n    \"\"\"\n    Combination of an authentication transport and strategy.\n    Together, they provide a full authentication method logic.\n    :param name: Name of the backend.\n    :param transport: Authentication transport instance.\n    :param get_strategy: Dependency callable returning\n    an authentication strategy instance.\n    \"\"\"\n    name: str",
+        "detail": "core.auth.backend",
+        "documentation": {}
+    },
+    {
+        "label": "auth_backend",
+        "kind": 5,
+        "importPath": "core.auth.backend",
+        "description": "core.auth.backend",
+        "peekOfCode": "auth_backend = CustomAuthenticationBackend(\n    name=\"jwt\",\n    transport=bearer_transport,\n    get_strategy=get_jwt_strategy,\n)",
+        "detail": "core.auth.backend",
+        "documentation": {}
+    },
+    {
+        "label": "UserManager",
+        "kind": 6,
+        "importPath": "core.auth.manager",
+        "description": "core.auth.manager",
+        "peekOfCode": "class UserManager(UUIDIDMixin, BaseUserManager[User, uuid.UUID]):\n    reset_password_token_secret = settings.access_token.reset_password_token_secret\n    verification_token_secret = settings.access_token.verification_token_secret\n    async def on_after_register(self, user: User, request: Request | None = None):\n        print(f\"User {user.id} has registered.\")\n    async def on_after_forgot_password(\n        self, user: User, token: str, request: Request | None = None\n    ):\n        print(f\"User {user.id} has forgot their password. Reset token: {token}\")\n    async def on_after_request_verify(",
+        "detail": "core.auth.manager",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshTokenRepo",
+        "kind": 6,
+        "importPath": "core.auth.repo_jwt",
+        "description": "core.auth.repo_jwt",
+        "peekOfCode": "class RefreshTokenRepo:\n    @staticmethod\n    async def create(user_id: UUID, expires_at: datetime, raw_token: str, session: AsyncSession) -> RefreshToken:\n        token = RefreshToken(\n            user_id=user_id,\n            token=raw_token, \n            expires_at=expires_at,\n        )\n        session.add(token)\n        try:",
+        "detail": "core.auth.repo_jwt",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPIUsersRefresh",
+        "kind": 6,
+        "importPath": "core.auth.router",
+        "description": "core.auth.router",
+        "peekOfCode": "class FastAPIUsersRefresh(FastAPIUsers, Generic[models.UP, models.ID]):\n    def get_auth_router(\n        self, backend: CustomAuthenticationBackend, requires_verification: bool = False\n    ) -> APIRouter:\n        \"\"\"\n        Return an auth router for a given authentication backend.\n        :param backend: The authentication backend instance.\n        :param requires_verification: Whether the authentication\n        require the user to be verified or not. Defaults to False.\n        \"\"\"",
+        "detail": "core.auth.router",
+        "documentation": {}
+    },
+    {
+        "label": "get_auth_router",
+        "kind": 2,
+        "importPath": "core.auth.router",
+        "description": "core.auth.router",
+        "peekOfCode": "def get_auth_router(\n    backend: CustomAuthenticationBackend,\n    get_user_manager: UserManagerDependency[models.UP, models.ID],\n    authenticator: Authenticator,\n    requires_verification: bool = False,\n) -> APIRouter:\n    \"\"\"Generate a router with login/logout routes for an authentication backend.\"\"\"\n    router = APIRouter()\n    get_current_user_token = authenticator.current_user_token(\n        active=True, verified=requires_verification",
+        "detail": "core.auth.router",
+        "documentation": {}
+    },
+    {
+        "label": "fastapi_users",
+        "kind": 5,
+        "importPath": "core.auth.router",
+        "description": "core.auth.router",
+        "peekOfCode": "fastapi_users = FastAPIUsersRefresh[User, uuid.UUID](\n    UserManager.get_user_manager,\n    [auth_backend],\n)",
+        "detail": "core.auth.router",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshJWTStrategy",
+        "kind": 6,
+        "importPath": "core.auth.strategy",
+        "description": "core.auth.strategy",
+        "peekOfCode": "class RefreshJWTStrategy(JWTStrategy, Strategy[models.UP, models.ID], Generic[models.UP, models.ID]):\n    def __init__(\n        self,\n        secret: SecretType,\n        access_lifetime_seconds: int,\n        refresh_lifetime_seconds: int,\n        token_audience: List[str] = [\"fastapi-users:auth\"],\n        algorithm: str = \"HS256\",\n        public_key: Optional[SecretType] = None,\n    ):",
+        "detail": "core.auth.strategy",
+        "documentation": {}
+    },
+    {
+        "label": "get_jwt_strategy",
+        "kind": 2,
+        "importPath": "core.auth.strategy",
+        "description": "core.auth.strategy",
+        "peekOfCode": "def get_jwt_strategy() -> JWTStrategy:\n    return RefreshJWTStrategy(secret=settings.access_token.verification_token_secret, access_lifetime_seconds=settings.access_token.lifetime_seconds, refresh_lifetime_seconds=settings.refresh_token.lifetime_seconds)",
+        "detail": "core.auth.strategy",
+        "documentation": {}
+    },
+    {
+        "label": "BearerResponse",
+        "kind": 6,
+        "importPath": "core.auth.transport",
+        "description": "core.auth.transport",
+        "peekOfCode": "class BearerResponse(BaseModel):\n    token_type: str\n    access_token: str\nclass BearerResponseWithRefresh(BearerResponse):\n    refresh_token: str\nclass BearerTransport(Transport):\n    scheme: OAuth2PasswordBearer\n    def __init__(self, tokenUrl: str):\n        self.scheme = OAuth2PasswordBearer(tokenUrl, auto_error=False)\n    async def get_login_response(self, access_token: str, refresh_token: str ) -> Response:",
+        "detail": "core.auth.transport",
+        "documentation": {}
+    },
+    {
+        "label": "BearerResponseWithRefresh",
+        "kind": 6,
+        "importPath": "core.auth.transport",
+        "description": "core.auth.transport",
+        "peekOfCode": "class BearerResponseWithRefresh(BearerResponse):\n    refresh_token: str\nclass BearerTransport(Transport):\n    scheme: OAuth2PasswordBearer\n    def __init__(self, tokenUrl: str):\n        self.scheme = OAuth2PasswordBearer(tokenUrl, auto_error=False)\n    async def get_login_response(self, access_token: str, refresh_token: str ) -> Response:\n        bearer_response = BearerResponseWithRefresh(\n            access_token=access_token,\n            refresh_token=refresh_token,",
+        "detail": "core.auth.transport",
+        "documentation": {}
+    },
+    {
+        "label": "BearerTransport",
+        "kind": 6,
+        "importPath": "core.auth.transport",
+        "description": "core.auth.transport",
+        "peekOfCode": "class BearerTransport(Transport):\n    scheme: OAuth2PasswordBearer\n    def __init__(self, tokenUrl: str):\n        self.scheme = OAuth2PasswordBearer(tokenUrl, auto_error=False)\n    async def get_login_response(self, access_token: str, refresh_token: str ) -> Response:\n        bearer_response = BearerResponseWithRefresh(\n            access_token=access_token,\n            refresh_token=refresh_token,\n            token_type=\"bearer\"\n        )",
+        "detail": "core.auth.transport",
+        "documentation": {}
+    },
+    {
+        "label": "bearer_transport",
+        "kind": 5,
+        "importPath": "core.auth.transport",
+        "description": "core.auth.transport",
+        "peekOfCode": "bearer_transport = BearerTransport(tokenUrl=\"/api/v1/auth/login\")",
+        "detail": "core.auth.transport",
+        "documentation": {}
+    },
+    {
+        "label": "Aplicatioin",
+        "kind": 6,
+        "importPath": "core.gunicorn.aplication",
+        "description": "core.gunicorn.aplication",
+        "peekOfCode": "class Aplicatioin(BaseApplication):\n    def __init__(self, app: fastapi.FastAPI, options: dict):\n        self.optioins = options or {}\n        self.aplication = app\n        super().__init__()\n    def load(self):\n        return self.aplication\n    @property\n    def config_options(self) -> dict:\n        return {",
+        "detail": "core.gunicorn.aplication",
+        "documentation": {}
+    },
+    {
+        "label": "get_app_options",
+        "kind": 2,
+        "importPath": "core.gunicorn.app_startup",
+        "description": "core.gunicorn.app_startup",
+        "peekOfCode": "def get_app_options(host: str, port: int, workers: int, timeout: int, loglevel: str) -> dict:\n    return {\n        \"bind\": f\"{host}:{port}\",\n        \"workers\": workers,\n        \"worker_class\": \"uvicorn.workers.UvicornWorker\",\n        \"timeout\": timeout,\n        \"accesslog\": \"-\",\n        \"errorlog\": \"-\",\n        \"logger_class\": GunicornLogger,\n        \"loglevel\": loglevel,",
+        "detail": "core.gunicorn.app_startup",
+        "documentation": {}
+    },
+    {
+        "label": "GunicornLogger",
+        "kind": 6,
+        "importPath": "core.gunicorn.logger",
+        "description": "core.gunicorn.logger",
+        "peekOfCode": "class GunicornLogger(Logger):\n    def setup(self, cfg):\n        self._set_handler(log=self.access_log, output=cfg.accesslog, fmt=Formatter(fmt=settings.logger.log_format))\n        self._set_handler(log=self.error_log, output=cfg.errorlog, fmt=Formatter(fmt=settings.logger.log_format))\n        return super().setup(cfg)",
+        "detail": "core.gunicorn.logger",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "core.migrations.versions.4f8d69f3825b_refresh_jwt_token_model",
+        "description": "core.migrations.versions.4f8d69f3825b_refresh_jwt_token_model",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('refresh_token',\n    sa.Column('id', sa.UUID(), nullable=False),\n    sa.Column('created_at', sa.DateTime(), server_default=sa.text(\"TIMEZONE('utc', now())\"), nullable=False),\n    sa.Column('user_id', fastapi_users_db_sqlalchemy.generics.GUID(), nullable=False),\n    sa.Column('hashed_token', sa.LargeBinary(), nullable=False),\n    sa.Column('revoked', sa.Boolean(), nullable=False),\n    sa.Column('expires_at', sa.DateTime(), nullable=False),",
+        "detail": "core.migrations.versions.4f8d69f3825b_refresh_jwt_token_model",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "core.migrations.versions.4f8d69f3825b_refresh_jwt_token_model",
+        "description": "core.migrations.versions.4f8d69f3825b_refresh_jwt_token_model",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_table('refresh_token')\n    # ### end Alembic commands ###",
+        "detail": "core.migrations.versions.4f8d69f3825b_refresh_jwt_token_model",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "core.migrations.versions.76371272f80a_added_username_to_user_model",
+        "description": "core.migrations.versions.76371272f80a_added_username_to_user_model",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('user', sa.Column('username', sa.String(length=50), nullable=False))\n    op.create_unique_constraint(op.f('uq_user_username'), 'user', ['username'])\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_constraint(op.f('uq_user_username'), 'user', type_='unique')",
+        "detail": "core.migrations.versions.76371272f80a_added_username_to_user_model",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "core.migrations.versions.76371272f80a_added_username_to_user_model",
+        "description": "core.migrations.versions.76371272f80a_added_username_to_user_model",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_constraint(op.f('uq_user_username'), 'user', type_='unique')\n    op.drop_column('user', 'username')\n    # ### end Alembic commands ###",
+        "detail": "core.migrations.versions.76371272f80a_added_username_to_user_model",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "core.migrations.versions.905116d62867_refresh_token_model_update",
+        "description": "core.migrations.versions.905116d62867_refresh_token_model_update",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('refresh_token', sa.Column('token', sa.String(), nullable=False))\n    op.drop_column('refresh_token', 'hashed_token')\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('refresh_token', sa.Column('hashed_token', postgresql.BYTEA(), autoincrement=False, nullable=False))",
+        "detail": "core.migrations.versions.905116d62867_refresh_token_model_update",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "core.migrations.versions.905116d62867_refresh_token_model_update",
+        "description": "core.migrations.versions.905116d62867_refresh_token_model_update",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.add_column('refresh_token', sa.Column('hashed_token', postgresql.BYTEA(), autoincrement=False, nullable=False))\n    op.drop_column('refresh_token', 'token')\n    # ### end Alembic commands ###",
+        "detail": "core.migrations.versions.905116d62867_refresh_token_model_update",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "core.migrations.versions.a7abad8953d3_fix_expires_at_fields_refreshtoken_model",
+        "description": "core.migrations.versions.a7abad8953d3_fix_expires_at_fields_refreshtoken_model",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.alter_column('refresh_token', 'expires_at',\n               existing_type=postgresql.TIMESTAMP(),\n               type_=sa.DateTime(timezone=True),\n               existing_nullable=False)\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"",
+        "detail": "core.migrations.versions.a7abad8953d3_fix_expires_at_fields_refreshtoken_model",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "core.migrations.versions.a7abad8953d3_fix_expires_at_fields_refreshtoken_model",
+        "description": "core.migrations.versions.a7abad8953d3_fix_expires_at_fields_refreshtoken_model",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.alter_column('refresh_token', 'expires_at',\n               existing_type=sa.DateTime(timezone=True),\n               type_=postgresql.TIMESTAMP(),\n               existing_nullable=False)\n    # ### end Alembic commands ###",
+        "detail": "core.migrations.versions.a7abad8953d3_fix_expires_at_fields_refreshtoken_model",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "core.migrations.versions.b398de946933_refresh_token_hashed_change_field_type",
+        "description": "core.migrations.versions.b398de946933_refresh_token_hashed_change_field_type",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
+        "detail": "core.migrations.versions.b398de946933_refresh_token_hashed_change_field_type",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "core.migrations.versions.b398de946933_refresh_token_hashed_change_field_type",
+        "description": "core.migrations.versions.b398de946933_refresh_token_hashed_change_field_type",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
+        "detail": "core.migrations.versions.b398de946933_refresh_token_hashed_change_field_type",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "core.migrations.versions.d112d024fd04_room_massage_models_added",
+        "description": "core.migrations.versions.d112d024fd04_room_massage_models_added",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
+        "detail": "core.migrations.versions.d112d024fd04_room_massage_models_added",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "core.migrations.versions.d112d024fd04_room_massage_models_added",
+        "description": "core.migrations.versions.d112d024fd04_room_massage_models_added",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
+        "detail": "core.migrations.versions.d112d024fd04_room_massage_models_added",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "core.migrations.versions.f50404e0de6f_added_user_base_accesstoken_models",
+        "description": "core.migrations.versions.f50404e0de6f_added_user_base_accesstoken_models",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.create_table('user',\n    sa.Column('id', fastapi_users_db_sqlalchemy.generics.GUID(), nullable=False),\n    sa.Column('email', sa.String(length=320), nullable=False),\n    sa.Column('hashed_password', sa.String(length=1024), nullable=False),\n    sa.Column('is_active', sa.Boolean(), nullable=False),\n    sa.Column('is_superuser', sa.Boolean(), nullable=False),\n    sa.Column('is_verified', sa.Boolean(), nullable=False),",
+        "detail": "core.migrations.versions.f50404e0de6f_added_user_base_accesstoken_models",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "core.migrations.versions.f50404e0de6f_added_user_base_accesstoken_models",
+        "description": "core.migrations.versions.f50404e0de6f_added_user_base_accesstoken_models",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    op.drop_index(op.f('ix_accesstoken_created_at'), table_name='accesstoken')\n    op.drop_table('accesstoken')\n    op.drop_index(op.f('ix_user_email'), table_name='user')\n    op.drop_table('user')\n    # ### end Alembic commands ###",
+        "detail": "core.migrations.versions.f50404e0de6f_added_user_base_accesstoken_models",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "core.migrations.versions.fdbf0f985fcf_add_relatioin_refresh_token_field_in_",
+        "description": "core.migrations.versions.fdbf0f985fcf_add_relatioin_refresh_token_field_in_",
+        "peekOfCode": "def upgrade() -> None:\n    \"\"\"Upgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###\ndef downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
+        "detail": "core.migrations.versions.fdbf0f985fcf_add_relatioin_refresh_token_field_in_",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "core.migrations.versions.fdbf0f985fcf_add_relatioin_refresh_token_field_in_",
+        "description": "core.migrations.versions.fdbf0f985fcf_add_relatioin_refresh_token_field_in_",
+        "peekOfCode": "def downgrade() -> None:\n    \"\"\"Downgrade schema.\"\"\"\n    # ### commands auto generated by Alembic - please adjust! ###\n    pass\n    # ### end Alembic commands ###",
+        "detail": "core.migrations.versions.fdbf0f985fcf_add_relatioin_refresh_token_field_in_",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "core.migrations.env",
+        "description": "core.migrations.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "core.migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "core.migrations.env",
+        "description": "core.migrations.env",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section, {}),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )",
+        "detail": "core.migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "core.migrations.env",
+        "description": "core.migrations.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\nconfig.set_main_option(\"sqlalchemy.url\", settings.db.DB_URL_ASYNCPG + \"?async_fallback=True\")\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata",
+        "detail": "core.migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "core.migrations.env",
+        "description": "core.migrations.env",
+        "peekOfCode": "target_metadata = Base.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "detail": "core.migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "core.models.base",
+        "description": "core.models.base",
+        "peekOfCode": "class Base(DeclarativeBase):\n    metadata = MetaData(naming_convention=settings.db.naming_convention)\n    repr_cols_num = 3\n    repr_cols = tuple()\n    @declared_attr.directive\n    def __tablename__(cls) -> str:\n        return camel_case_to_snake_case(cls.__name__)\n    def __repr__(self):\n        cols = []\n        for idx, col in enumerate(self.__table__.columns.keys()):",
+        "detail": "core.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "pk",
+        "kind": 5,
+        "importPath": "core.models.base",
+        "description": "core.models.base",
+        "peekOfCode": "pk = Annotated[\n    uuid.UUID,\n    mapped_column(UUID(as_uuid=True), primary_key=True, default=uuid.uuid4),\n]\ncreated_at = Annotated[\n    datetime, mapped_column(server_default=text(\"TIMEZONE('utc', now())\"))\n]\n# --------/ Enum types /--------",
+        "detail": "core.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "created_at",
+        "kind": 5,
+        "importPath": "core.models.base",
+        "description": "core.models.base",
+        "peekOfCode": "created_at = Annotated[\n    datetime, mapped_column(server_default=text(\"TIMEZONE('utc', now())\"))\n]\n# --------/ Enum types /--------",
+        "detail": "core.models.base",
+        "documentation": {}
+    },
+    {
+        "label": "Room",
+        "kind": 6,
+        "importPath": "core.models.chat",
+        "description": "core.models.chat",
+        "peekOfCode": "class Room(Base):\n    id: Mapped[int] = mapped_column(primary_key=True, index=True)\n    name: Mapped[str] = mapped_column(String(255), nullable=False, unique=True)\n    description: Mapped[Optional[str]] = mapped_column(String(500))\n    is_private: Mapped[bool] = mapped_column(default=False)\n    created_at: Mapped[datetime] = mapped_column(default=datetime.utcnow)\n    messages: Mapped[List[\"Message\"]] = relationship(\n        back_populates=\"room\",\n        cascade=\"all, delete-orphan\",\n        passive_deletes=True,",
+        "detail": "core.models.chat",
+        "documentation": {}
+    },
+    {
+        "label": "RoomParticipant",
+        "kind": 6,
+        "importPath": "core.models.chat",
+        "description": "core.models.chat",
+        "peekOfCode": "class RoomParticipant(Base):\n    id: Mapped[int] = mapped_column(primary_key=True)\n    room_id: Mapped[UUID] = mapped_column(ForeignKey(\"rooms.id\", ondelete=\"CASCADE\"))\n    user_id: Mapped[UUID] = mapped_column(ForeignKey(\"user.id\", ondelete=\"CASCADE\"))\n    joined_at: Mapped[datetime] = mapped_column(default=datetime.utcnow)\n    is_admin: Mapped[bool] = mapped_column(default=False)\n    room: Mapped[\"Room\"] = relationship(back_populates=\"participants\")\n    user: Mapped[\"User\"] = relationship()\nclass Message(Base):\n    id: Mapped[int] = mapped_column(primary_key=True, index=True)",
+        "detail": "core.models.chat",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "kind": 6,
+        "importPath": "core.models.chat",
+        "description": "core.models.chat",
+        "peekOfCode": "class Message(Base):\n    id: Mapped[int] = mapped_column(primary_key=True, index=True)\n    room_id: Mapped[int] = mapped_column(ForeignKey(\"room.id\", ondelete=\"CASCADE\"))\n    user_id: Mapped[Optional[int]] = mapped_column(ForeignKey(\"user.id\", ondelete=\"SET NULL\"))\n    content: Mapped[str] = mapped_column(Text, nullable=False)\n    created_at: Mapped[datetime] = mapped_column(default=datetime.utcnow)\n    is_edited: Mapped[bool] = mapped_column(default=False)\n    is_deleted: Mapped[bool] = mapped_column(default=False)\n    user: Mapped[\"User\"] = relationship(back_populates=\"messages\")\n    room: Mapped[\"Room\"] = relationship(back_populates=\"messages\")",
+        "detail": "core.models.chat",
+        "documentation": {}
+    },
+    {
+        "label": "AccessToken",
+        "kind": 6,
+        "importPath": "core.models.token",
+        "description": "core.models.token",
+        "peekOfCode": "class AccessToken(SQLAlchemyBaseAccessTokenTableUUID, Base):  \n    pass\n    @classmethod\n    # фукнція повертає обєкт для роботи з певною таблицею в БД (user)\n    async def get_db(\n        cls, session: AsyncSession = Depends(get_db),\n    ):  \n        yield SQLAlchemyAccessTokenDatabase(session, cls)\nclass RefreshToken(Base):\n    id: Mapped[pk]",
+        "detail": "core.models.token",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshToken",
+        "kind": 6,
+        "importPath": "core.models.token",
+        "description": "core.models.token",
+        "peekOfCode": "class RefreshToken(Base):\n    id: Mapped[pk]\n    created_at: Mapped[created_at]\n    user_id: Mapped[uuid.UUID] = mapped_column(ForeignKey(\"user.id\", ondelete=\"CASCADE\"), nullable=False)\n    token: Mapped[str] = mapped_column(nullable=False)\n    revoked: Mapped[bool] = mapped_column(default=False)\n    expires_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), nullable=False)\n    user: Mapped[\"User\"] = relationship(\n        back_populates=\"refresh_tokens\",\n    )",
+        "detail": "core.models.token",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshTokenAdmin",
+        "kind": 6,
+        "importPath": "core.models.token",
+        "description": "core.models.token",
+        "peekOfCode": "class RefreshTokenAdmin(SqlAlchemyModelAdmin):\n    exclude = (\"token\", \"user\") \n    list_display = (\"id\", \"user_id\", \"created_at\", \"expires_at\", \"revoked\")\n    list_display_links = (\"id\",)\n    list_filter = (\"revoked\", \"created_at\")\n    search_fields = (\"id\",)",
+        "detail": "core.models.token",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "core.models.user",
+        "description": "core.models.user",
+        "peekOfCode": "class User(SQLAlchemyBaseUserTableUUID, Base):\n    username: Mapped[str] = mapped_column(String(50), unique=True, nullable=False)\n    refresh_tokens: Mapped[list[\"RefreshToken\"]] = relationship(back_populates=\"user\")\n@register(User, sqlalchemy_sessionmaker=async_db_helper.session_factory)\nclass UserAdmin(SqlAlchemyModelAdmin):\n    exclude = (\"hashed_password\",)\n    list_display = (\"id\", \"username\", \"is_superuser\", \"is_active\")\n    list_display_links = (\"id\", \"username\")\n    list_filter = (\"id\", \"username\", \"is_superuser\", \"is_active\")\n    search_fields = (\"username\",)",
+        "detail": "core.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserAdmin",
+        "kind": 6,
+        "importPath": "core.models.user",
+        "description": "core.models.user",
+        "peekOfCode": "class UserAdmin(SqlAlchemyModelAdmin):\n    exclude = (\"hashed_password\",)\n    list_display = (\"id\", \"username\", \"is_superuser\", \"is_active\")\n    list_display_links = (\"id\", \"username\")\n    list_filter = (\"id\", \"username\", \"is_superuser\", \"is_active\")\n    search_fields = (\"username\",)\n    async def authenticate(self, username: str, password: str) -> uuid.UUID | int | None:\n        sessionmaker = self.get_sessionmaker()\n        async with sessionmaker() as session:\n            query = select(self.model_cls).filter_by(username=username, is_superuser=True)",
+        "detail": "core.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"ADMIN_USER_MODEL\"]",
+        "kind": 5,
+        "importPath": "core.models.user",
+        "description": "core.models.user",
+        "peekOfCode": "os.environ[\"ADMIN_USER_MODEL\"] = settings.admin.user_model\nos.environ[\"ADMIN_USER_MODEL_USERNAME_FIELD\"] = settings.admin.username_field\nos.environ[\"ADMIN_SECRET_KEY\"] = settings.admin.secret_key\nfrom fastapi_users.db import SQLAlchemyBaseUserTableUUID, SQLAlchemyUserDatabase\nfrom fastadmin import SqlAlchemyModelAdmin, register\nfrom core.models.base import Base\nfrom core.database import async_db_helper, get_db\nclass User(SQLAlchemyBaseUserTableUUID, Base):\n    username: Mapped[str] = mapped_column(String(50), unique=True, nullable=False)\n    refresh_tokens: Mapped[list[\"RefreshToken\"]] = relationship(back_populates=\"user\")",
+        "detail": "core.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"ADMIN_USER_MODEL_USERNAME_FIELD\"]",
+        "kind": 5,
+        "importPath": "core.models.user",
+        "description": "core.models.user",
+        "peekOfCode": "os.environ[\"ADMIN_USER_MODEL_USERNAME_FIELD\"] = settings.admin.username_field\nos.environ[\"ADMIN_SECRET_KEY\"] = settings.admin.secret_key\nfrom fastapi_users.db import SQLAlchemyBaseUserTableUUID, SQLAlchemyUserDatabase\nfrom fastadmin import SqlAlchemyModelAdmin, register\nfrom core.models.base import Base\nfrom core.database import async_db_helper, get_db\nclass User(SQLAlchemyBaseUserTableUUID, Base):\n    username: Mapped[str] = mapped_column(String(50), unique=True, nullable=False)\n    refresh_tokens: Mapped[list[\"RefreshToken\"]] = relationship(back_populates=\"user\")\n@register(User, sqlalchemy_sessionmaker=async_db_helper.session_factory)",
+        "detail": "core.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"ADMIN_SECRET_KEY\"]",
+        "kind": 5,
+        "importPath": "core.models.user",
+        "description": "core.models.user",
+        "peekOfCode": "os.environ[\"ADMIN_SECRET_KEY\"] = settings.admin.secret_key\nfrom fastapi_users.db import SQLAlchemyBaseUserTableUUID, SQLAlchemyUserDatabase\nfrom fastadmin import SqlAlchemyModelAdmin, register\nfrom core.models.base import Base\nfrom core.database import async_db_helper, get_db\nclass User(SQLAlchemyBaseUserTableUUID, Base):\n    username: Mapped[str] = mapped_column(String(50), unique=True, nullable=False)\n    refresh_tokens: Mapped[list[\"RefreshToken\"]] = relationship(back_populates=\"user\")\n@register(User, sqlalchemy_sessionmaker=async_db_helper.session_factory)\nclass UserAdmin(SqlAlchemyModelAdmin):",
+        "detail": "core.models.user",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseConfig",
+        "kind": 6,
+        "importPath": "core.config",
+        "description": "core.config",
+        "peekOfCode": "class DatabaseConfig(BaseModel):\n    HOST: str\n    PASS: str\n    NAME: str\n    PORT: str\n    USER: str\n    echo: bool = False\n    echo_pool: bool = False\n    pool_size: int = 50\n    max_overflow: int = 10",
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "MongoConfig",
+        "kind": 6,
+        "importPath": "core.config",
+        "description": "core.config",
+        "peekOfCode": "class MongoConfig(BaseModel):\n    PASS: str\n    USER: str\nclass AccessToken(BaseModel):\n    lifetime_seconds: int = 3600\n    reset_password_token_secret: str\n    verification_token_secret: str\nclass RefreshToken(BaseModel):\n    lifetime_seconds: int = 604800\nclass AdminCred(BaseModel):",
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "AccessToken",
+        "kind": 6,
+        "importPath": "core.config",
+        "description": "core.config",
+        "peekOfCode": "class AccessToken(BaseModel):\n    lifetime_seconds: int = 3600\n    reset_password_token_secret: str\n    verification_token_secret: str\nclass RefreshToken(BaseModel):\n    lifetime_seconds: int = 604800\nclass AdminCred(BaseModel):\n    user_model: str\n    username_field: str\n    secret_key: str",
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "RefreshToken",
+        "kind": 6,
+        "importPath": "core.config",
+        "description": "core.config",
+        "peekOfCode": "class RefreshToken(BaseModel):\n    lifetime_seconds: int = 604800\nclass AdminCred(BaseModel):\n    user_model: str\n    username_field: str\n    secret_key: str\nclass ApiV1Prefix:\n    prefix: str = \"/api_v1\"\n    user: str = \"/user\"\n    auth: str = \"/auth\"",
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "AdminCred",
+        "kind": 6,
+        "importPath": "core.config",
+        "description": "core.config",
+        "peekOfCode": "class AdminCred(BaseModel):\n    user_model: str\n    username_field: str\n    secret_key: str\nclass ApiV1Prefix:\n    prefix: str = \"/api_v1\"\n    user: str = \"/user\"\n    auth: str = \"/auth\"\n    messages: str = \"/messages\"\nclass ApiPrefix:",
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "ApiV1Prefix",
+        "kind": 6,
+        "importPath": "core.config",
+        "description": "core.config",
+        "peekOfCode": "class ApiV1Prefix:\n    prefix: str = \"/api_v1\"\n    user: str = \"/user\"\n    auth: str = \"/auth\"\n    messages: str = \"/messages\"\nclass ApiPrefix:\n    prefix: str = \"/api\"\n    v1: ApiV1Prefix = ApiV1Prefix()\n    @property\n    def bearer_token_url(self) -> str:",
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "ApiPrefix",
+        "kind": 6,
+        "importPath": "core.config",
+        "description": "core.config",
+        "peekOfCode": "class ApiPrefix:\n    prefix: str = \"/api\"\n    v1: ApiV1Prefix = ApiV1Prefix()\n    @property\n    def bearer_token_url(self) -> str:\n        return self.prefix.removeprefix(\"/\") + self.v1.prefix + self.v1.auth + \"/login\"\nclass RunConfig(BaseModel):\n    host: str = \"127.0.0.1\"\n    port: int = 8000\nclass RunGunicorn(BaseModel):",
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "RunConfig",
+        "kind": 6,
+        "importPath": "core.config",
+        "description": "core.config",
+        "peekOfCode": "class RunConfig(BaseModel):\n    host: str = \"127.0.0.1\"\n    port: int = 8000\nclass RunGunicorn(BaseModel):\n    host: str = \"0.0.0.0\"\n    port: int = 8000\n    workers: int = 2\n    timeout: int = 900\nclass LoggingConfig(BaseModel):\n    log_level: Literal['debug', 'info', 'warning', 'error', 'critical'] = 'info'",
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "RunGunicorn",
+        "kind": 6,
+        "importPath": "core.config",
+        "description": "core.config",
+        "peekOfCode": "class RunGunicorn(BaseModel):\n    host: str = \"0.0.0.0\"\n    port: int = 8000\n    workers: int = 2\n    timeout: int = 900\nclass LoggingConfig(BaseModel):\n    log_level: Literal['debug', 'info', 'warning', 'error', 'critical'] = 'info'\n    log_format: str = '%(h)s %(l)s %(u)s %(t)s \"%(r)s\" %(s)s %(b)s \"%(f)s\" \"%(a)s\"'\nclass SuperUser(BaseModel):\n    default_email: str",
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "LoggingConfig",
+        "kind": 6,
+        "importPath": "core.config",
+        "description": "core.config",
+        "peekOfCode": "class LoggingConfig(BaseModel):\n    log_level: Literal['debug', 'info', 'warning', 'error', 'critical'] = 'info'\n    log_format: str = '%(h)s %(l)s %(u)s %(t)s \"%(r)s\" %(s)s %(b)s \"%(f)s\" \"%(a)s\"'\nclass SuperUser(BaseModel):\n    default_email: str\n    default_username: str\n    default_password: str\n    default_is_active: bool\n    default_is_superuser: bool\n    default_is_verified: bool",
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "SuperUser",
+        "kind": 6,
+        "importPath": "core.config",
+        "description": "core.config",
+        "peekOfCode": "class SuperUser(BaseModel):\n    default_email: str\n    default_username: str\n    default_password: str\n    default_is_active: bool\n    default_is_superuser: bool\n    default_is_verified: bool\nclass Settings(BaseSettings):\n    model_config = SettingsConfigDict(\n        env_file=(",
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "core.config",
+        "description": "core.config",
+        "peekOfCode": "class Settings(BaseSettings):\n    model_config = SettingsConfigDict(\n        env_file=(\n            \"core/.env.template\",\n            \"core/.env\",\n        ),\n        extra=\"ignore\",\n        case_sensitive=False,\n        env_nested_delimiter=\"__\",  # після цього роздільника шукати значення\n        env_prefix=\"APP_CONFIG__\",  # префікс для точного знаходження значення",
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "core.config",
+        "description": "core.config",
+        "peekOfCode": "BASE_DIR = Path(__file__).parent\nclass DatabaseConfig(BaseModel):\n    HOST: str\n    PASS: str\n    NAME: str\n    PORT: str\n    USER: str\n    echo: bool = False\n    echo_pool: bool = False\n    pool_size: int = 50",
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "core.config",
+        "description": "core.config",
+        "peekOfCode": "settings = Settings() # type: ignore",
+        "detail": "core.config",
+        "documentation": {}
+    },
+    {
+        "label": "Database",
+        "kind": 6,
+        "importPath": "core.database",
+        "description": "core.database",
+        "peekOfCode": "class Database(ABC):\n    def __init__(\n        self,\n        url: str,\n        pool_size: int = 5,\n        max_overflow: int = 10,\n        echo: bool = False,\n        echo_pool: bool = False,\n    ) -> None:\n        self.engine: Engine | AsyncEngine",
+        "detail": "core.database",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseHelperSync",
+        "kind": 6,
+        "importPath": "core.database",
+        "description": "core.database",
+        "peekOfCode": "class DatabaseHelperSync(Database):\n    def __init__(\n        self,\n        url: str,\n        pool_size: int,\n        max_overflow: int,\n        echo: bool,\n        echo_pool: bool,\n    ) -> None:\n        super().__init__(url, pool_size, max_overflow, echo, echo_pool)",
+        "detail": "core.database",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseHelperAsync",
+        "kind": 6,
+        "importPath": "core.database",
+        "description": "core.database",
+        "peekOfCode": "class DatabaseHelperAsync(Database):\n    def __init__(\n        self,\n        url: str,\n        pool_size: int,\n        max_overflow: int,\n        echo: bool,\n        echo_pool: bool,\n    ) -> None:\n        super().__init__(url, pool_size, max_overflow, echo, echo_pool)",
+        "detail": "core.database",
+        "documentation": {}
+    },
+    {
+        "label": "async_db_helper",
+        "kind": 5,
+        "importPath": "core.database",
+        "description": "core.database",
+        "peekOfCode": "async_db_helper = DatabaseHelperAsync(\n    url=settings.db.DB_URL_ASYNCPG,\n    max_overflow=settings.db.max_overflow,\n    pool_size=settings.db.pool_size,\n    echo=settings.db.echo,\n    echo_pool=settings.db.echo_pool,\n)\nsync_db_helper = DatabaseHelperSync(\n    url=settings.db.DB_URL_PSYCOPG,\n    max_overflow=settings.db.max_overflow,",
+        "detail": "core.database",
+        "documentation": {}
+    },
+    {
+        "label": "sync_db_helper",
+        "kind": 5,
+        "importPath": "core.database",
+        "description": "core.database",
+        "peekOfCode": "sync_db_helper = DatabaseHelperSync(\n    url=settings.db.DB_URL_PSYCOPG,\n    max_overflow=settings.db.max_overflow,\n    pool_size=settings.db.pool_size,\n    echo=settings.db.echo,\n    echo_pool=settings.db.echo_pool,\n)\nget_db = async_db_helper.session_getter",
+        "detail": "core.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 5,
+        "importPath": "core.database",
+        "description": "core.database",
+        "peekOfCode": "get_db = async_db_helper.session_getter",
+        "detail": "core.database",
+        "documentation": {}
+    },
+    {
+        "label": "LOG_DIR",
+        "kind": 5,
+        "importPath": "core.logging",
+        "description": "core.logging",
+        "peekOfCode": "LOG_DIR = Path(\"logs\")\nLOG_DIR.mkdir(exist_ok=True)\nLOG_FILE = LOG_DIR / \"app.log\"\nlogging.basicConfig(\n    level=logging.INFO,\n    format=\"%(asctime)s | %(levelname)s | %(name)s | %(message)s\",\n    handlers=[\n        logging.StreamHandler(sys.stdout),\n        # logging.FileHandler(LOG_FILE, encoding=\"utf-8\"),  \n    ]",
+        "detail": "core.logging",
+        "documentation": {}
+    },
+    {
+        "label": "LOG_FILE",
+        "kind": 5,
+        "importPath": "core.logging",
+        "description": "core.logging",
+        "peekOfCode": "LOG_FILE = LOG_DIR / \"app.log\"\nlogging.basicConfig(\n    level=logging.INFO,\n    format=\"%(asctime)s | %(levelname)s | %(name)s | %(message)s\",\n    handlers=[\n        logging.StreamHandler(sys.stdout),\n        # logging.FileHandler(LOG_FILE, encoding=\"utf-8\"),  \n    ]\n)\n# Головний логер проєкту",
+        "detail": "core.logging",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "core.logging",
+        "description": "core.logging",
+        "peekOfCode": "logger = logging.getLogger(\"app\")",
+        "detail": "core.logging",
+        "documentation": {}
+    },
+    {
+        "label": "ConnectionManager",
+        "kind": 6,
+        "importPath": "modules.chat.manager",
+        "description": "modules.chat.manager",
+        "peekOfCode": "class ConnectionManager:\n    def __init__(self):\n        self.connections: dict[UUID, dict[UUID, WebSocket]] = {}\n    async def connect(self, websocket: WebSocket,user_id: UUID, room_id: UUID):\n        await websocket.accept()\n        self.connections[user_id][room_id] = websocket\n    def disconnect(self, websocket: WebSocket, client_id: UUID, room_id: UUID):\n        pass\n    async def broadcast(self, room_id: UUID,  message: str, client_id: UUID|None = None):\n        pass",
+        "detail": "modules.chat.manager",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "modules.chat.manager",
+        "description": "modules.chat.manager",
+        "peekOfCode": "logger = logging.getLogger(\"app.modules.chat\")\nclass ConnectionManager:\n    def __init__(self):\n        self.connections: dict[UUID, dict[UUID, WebSocket]] = {}\n    async def connect(self, websocket: WebSocket,user_id: UUID, room_id: UUID):\n        await websocket.accept()\n        self.connections[user_id][room_id] = websocket\n    def disconnect(self, websocket: WebSocket, client_id: UUID, room_id: UUID):\n        pass\n    async def broadcast(self, room_id: UUID,  message: str, client_id: UUID|None = None):",
+        "detail": "modules.chat.manager",
+        "documentation": {}
+    },
+    {
+        "label": "manager",
+        "kind": 5,
+        "importPath": "modules.chat.manager",
+        "description": "modules.chat.manager",
+        "peekOfCode": "manager = ConnectionManager()",
+        "detail": "modules.chat.manager",
+        "documentation": {}
+    },
+    {
+        "label": "UserRead",
+        "kind": 6,
+        "importPath": "modules.user.schemas",
+        "description": "modules.user.schemas",
+        "peekOfCode": "class UserRead(schemas.BaseUser[uuid.UUID]):\n    username: str\nclass UserCreate(schemas.BaseUserCreate):\n    username: str\nclass UserUpdate(schemas.BaseUserUpdate):\n    username: str",
+        "detail": "modules.user.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "kind": 6,
+        "importPath": "modules.user.schemas",
+        "description": "modules.user.schemas",
+        "peekOfCode": "class UserCreate(schemas.BaseUserCreate):\n    username: str\nclass UserUpdate(schemas.BaseUserUpdate):\n    username: str",
+        "detail": "modules.user.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserUpdate",
+        "kind": 6,
+        "importPath": "modules.user.schemas",
+        "description": "modules.user.schemas",
+        "peekOfCode": "class UserUpdate(schemas.BaseUserUpdate):\n    username: str",
+        "detail": "modules.user.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "camel_case_to_snake_case",
+        "kind": 2,
+        "importPath": "utils.case_converter",
+        "description": "utils.case_converter",
+        "peekOfCode": "def camel_case_to_snake_case(input_str: str) -> str:\n    chars = []\n    for c_idx, char in enumerate(input_str):\n        if c_idx and char.isupper():\n            nxt_idx = c_idx + 1\n            flag = nxt_idx >= len(input_str) or input_str[nxt_idx].isupper()\n            prev_char = input_str[c_idx - 1]\n            if prev_char.isupper() and flag:\n                pass\n            else:",
+        "detail": "utils.case_converter",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_db_context",
+        "kind": 5,
+        "importPath": "utils.create_superuser",
+        "description": "utils.create_superuser",
+        "peekOfCode": "get_user_db_context = contextlib.asynccontextmanager(get_user_db)\nget_user_manager_context = contextlib.asynccontextmanager(get_user_manager)\ndefault_email = settings.super_user.default_email\ndefault_username = settings.super_user.default_username\ndefault_password = settings.super_user.default_password\ndefault_is_active = settings.super_user.default_is_active\ndefault_is_superuser = settings.super_user.default_is_superuser\ndefault_is_verified = settings.super_user.default_is_verified\nasync def create_user(user_manager: UserManager, user_create: UserCreate) -> User:\n    user = await user_manager.create(user_create=user_create, safe=False)",
+        "detail": "utils.create_superuser",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_manager_context",
+        "kind": 5,
+        "importPath": "utils.create_superuser",
+        "description": "utils.create_superuser",
+        "peekOfCode": "get_user_manager_context = contextlib.asynccontextmanager(get_user_manager)\ndefault_email = settings.super_user.default_email\ndefault_username = settings.super_user.default_username\ndefault_password = settings.super_user.default_password\ndefault_is_active = settings.super_user.default_is_active\ndefault_is_superuser = settings.super_user.default_is_superuser\ndefault_is_verified = settings.super_user.default_is_verified\nasync def create_user(user_manager: UserManager, user_create: UserCreate) -> User:\n    user = await user_manager.create(user_create=user_create, safe=False)\n    return user",
+        "detail": "utils.create_superuser",
+        "documentation": {}
+    },
+    {
+        "label": "default_email",
+        "kind": 5,
+        "importPath": "utils.create_superuser",
+        "description": "utils.create_superuser",
+        "peekOfCode": "default_email = settings.super_user.default_email\ndefault_username = settings.super_user.default_username\ndefault_password = settings.super_user.default_password\ndefault_is_active = settings.super_user.default_is_active\ndefault_is_superuser = settings.super_user.default_is_superuser\ndefault_is_verified = settings.super_user.default_is_verified\nasync def create_user(user_manager: UserManager, user_create: UserCreate) -> User:\n    user = await user_manager.create(user_create=user_create, safe=False)\n    return user\nasync def create_superuser(",
+        "detail": "utils.create_superuser",
+        "documentation": {}
+    },
+    {
+        "label": "default_username",
+        "kind": 5,
+        "importPath": "utils.create_superuser",
+        "description": "utils.create_superuser",
+        "peekOfCode": "default_username = settings.super_user.default_username\ndefault_password = settings.super_user.default_password\ndefault_is_active = settings.super_user.default_is_active\ndefault_is_superuser = settings.super_user.default_is_superuser\ndefault_is_verified = settings.super_user.default_is_verified\nasync def create_user(user_manager: UserManager, user_create: UserCreate) -> User:\n    user = await user_manager.create(user_create=user_create, safe=False)\n    return user\nasync def create_superuser(\n    email: EmailStr = default_email,",
+        "detail": "utils.create_superuser",
+        "documentation": {}
+    },
+    {
+        "label": "default_password",
+        "kind": 5,
+        "importPath": "utils.create_superuser",
+        "description": "utils.create_superuser",
+        "peekOfCode": "default_password = settings.super_user.default_password\ndefault_is_active = settings.super_user.default_is_active\ndefault_is_superuser = settings.super_user.default_is_superuser\ndefault_is_verified = settings.super_user.default_is_verified\nasync def create_user(user_manager: UserManager, user_create: UserCreate) -> User:\n    user = await user_manager.create(user_create=user_create, safe=False)\n    return user\nasync def create_superuser(\n    email: EmailStr = default_email,\n    username: str = default_username,",
+        "detail": "utils.create_superuser",
+        "documentation": {}
+    },
+    {
+        "label": "default_is_active",
+        "kind": 5,
+        "importPath": "utils.create_superuser",
+        "description": "utils.create_superuser",
+        "peekOfCode": "default_is_active = settings.super_user.default_is_active\ndefault_is_superuser = settings.super_user.default_is_superuser\ndefault_is_verified = settings.super_user.default_is_verified\nasync def create_user(user_manager: UserManager, user_create: UserCreate) -> User:\n    user = await user_manager.create(user_create=user_create, safe=False)\n    return user\nasync def create_superuser(\n    email: EmailStr = default_email,\n    username: str = default_username,\n    password: str = default_password,",
+        "detail": "utils.create_superuser",
+        "documentation": {}
+    },
+    {
+        "label": "default_is_superuser",
+        "kind": 5,
+        "importPath": "utils.create_superuser",
+        "description": "utils.create_superuser",
+        "peekOfCode": "default_is_superuser = settings.super_user.default_is_superuser\ndefault_is_verified = settings.super_user.default_is_verified\nasync def create_user(user_manager: UserManager, user_create: UserCreate) -> User:\n    user = await user_manager.create(user_create=user_create, safe=False)\n    return user\nasync def create_superuser(\n    email: EmailStr = default_email,\n    username: str = default_username,\n    password: str = default_password,\n    is_active: Optional[bool] = default_is_active,",
+        "detail": "utils.create_superuser",
+        "documentation": {}
+    },
+    {
+        "label": "default_is_verified",
+        "kind": 5,
+        "importPath": "utils.create_superuser",
+        "description": "utils.create_superuser",
+        "peekOfCode": "default_is_verified = settings.super_user.default_is_verified\nasync def create_user(user_manager: UserManager, user_create: UserCreate) -> User:\n    user = await user_manager.create(user_create=user_create, safe=False)\n    return user\nasync def create_superuser(\n    email: EmailStr = default_email,\n    username: str = default_username,\n    password: str = default_password,\n    is_active: Optional[bool] = default_is_active,\n    is_superuser: Optional[bool] = default_is_superuser,",
+        "detail": "utils.create_superuser",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"APP_CONFIG__DB__HOST\"]",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "os.environ[\"APP_CONFIG__DB__HOST\"] = \"localhost\"\norigins = [\n    \"http://localhost\",\n    \"http://localhost:5500\",\n    \"http://127.0.0.1:5500\",\n    \"http://localhost:8000\",\n    \"http://127.0.0.1:8000\",\n]\n@asynccontextmanager\nasync def lifespan(app: FastAPI):",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "origins",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "origins = [\n    \"http://localhost\",\n    \"http://localhost:5500\",\n    \"http://127.0.0.1:5500\",\n    \"http://localhost:8000\",\n    \"http://127.0.0.1:8000\",\n]\n@asynccontextmanager\nasync def lifespan(app: FastAPI):\n    logger.info(\"Application started successfully\")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "app = FastAPI(lifespan=lifespan)\napp.mount(\"/admin\", admin_app)\napp.include_router(router, prefix=settings.api.prefix)\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],\n)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "run",
+        "description": "run",
+        "peekOfCode": "def main():\n    app = Aplicatioin(\n        fastapi_app,\n        get_app_options(\n            settings.run_gunicorn.host,\n            settings.run_gunicorn.port,\n            settings.run_gunicorn.workers,\n            settings.run_gunicorn.timeout,\n            settings.logger.log_level\n        ),",
+        "detail": "run",
+        "documentation": {}
+    }
+]

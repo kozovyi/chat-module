@@ -89,4 +89,4 @@ class BearerTransport(Transport):
 
 
 
-bearer_transport = BearerTransport(tokenUrl="/api/v1/auth/login")
+bearer_transport = BearerTransport(tokenUrl="/api/v1/auth/jwt/login")

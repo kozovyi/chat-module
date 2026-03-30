@@ -37,6 +37,11 @@ class MongoConfig(BaseModel):
     PASS: str
     USER: str
 
+class RedisConfig(BaseModel):
+    HOST: str
+    PORT: int
+    PASS: str
+
 class AccessToken(BaseModel):
     lifetime_seconds: int = 3600
     reset_password_token_secret: str
@@ -92,8 +97,8 @@ class SuperUser(BaseModel):
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(
         env_file=(
-            "core/.env.template",
-            "core/.env",
+            "../.env.template",
+            "../.env",
         ),
         extra="ignore",
         case_sensitive=False,
@@ -110,6 +115,7 @@ class Settings(BaseSettings):
     db: DatabaseConfig
     admin: AdminCred
     mongo_db: MongoConfig
+    redis: RedisConfig
 
 
 settings = Settings() # type: ignore

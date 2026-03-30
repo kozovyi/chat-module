@@ -112,35 +112,16 @@ def get_auth_router(
 
     return router
 
-class FastAPIUsersRefresh(FastAPIUsers, Generic[models.UP, models.ID]):
-    
-    def get_auth_router(
-        self, backend: CustomAuthenticationBackend, requires_verification: bool = False
-    ) -> APIRouter:
-        """
-        Return an auth router for a given authentication backend.
-
-        :param backend: The authentication backend instance.
-        :param requires_verification: Whether the authentication
-        require the user to be verified or not. Defaults to False.
-        """
-        return get_auth_router(
-            backend,
-            self.get_user_manager,
-            self.authenticator,
-            requires_verification,
-        )
-
-fastapi_users = FastAPIUsersRefresh[User, uuid.UUID](
-    get_user_manager,
-    [auth_backend],
-)
-
+from modules.user.fastapi_users import fastapi_users
 
 user_router = APIRouter()
 auth_jwt_router = APIRouter()
 
-auth_jwt_router.include_router(fastapi_users.get_auth_router(auth_backend))
+auth_jwt_router.include_router(get_auth_router(
+    auth_backend,
+    fastapi_users.get_user_manager,
+    fastapi_users.authenticator,
+))
 user_router.include_router(fastapi_users.get_register_router(UserRead, UserCreate))
 user_router.include_router(fastapi_users.get_verify_router(UserRead))
 user_router.include_router(fastapi_users.get_reset_password_router())
