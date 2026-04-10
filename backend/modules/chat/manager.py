@@ -14,31 +14,34 @@ logger = logging.getLogger("app.modules.chat")
 class RedisManager:
     def __init__(self, host=settings.redis.HOST, port=settings.redis.PORT, passw=settings.redis.PASS):
         self.redis_url = f"redis://{host}:{port}"
-        self.client: Optional[aioredis.Redis] = None
         self.password: str = passw
+        self._client: Optional[aioredis.Redis] = None
 
-    async def connect(self):
-        if not self.client:
-            self.client = aioredis.from_url(self.redis_url, password=self.password, decode_responses=True)
-
-    async def disconnect(self):
-        if self.client:
-            await self.client.close()
+    async def client(self) -> aioredis.Redis:
+        if self._client is None:
+            self._client = aioredis.from_url(
+                self.redis_url,
+                password=self.password,
+                decode_responses=True
+            )
+        return self._client
 
     async def get_client(self):
-        if not self.client:
-            await self.connect()
-        yield self.client
+        client = await self.client()
+        yield client
+
+    async def disconnect(self):
+        if self._client:
+            await self._client.close()
+            self._client = None
 
     async def publish(self, room_id: str, message: str):
-        if not self.client:
-            await self.connect()
-        await self.client.publish(room_id, message) # type: ignore
+        client = await self.client()
+        await client.publish(room_id, message) 
 
     async def subscribe(self, room_id: str):
-        if not self.client:
-            await self.connect()
-        pubsub = self.client.pubsub() # type: ignore
+        client = await self.client()
+        pubsub = client.pubsub()
         await pubsub.subscribe(room_id)
         return pubsub
 
@@ -55,7 +58,7 @@ class WebSocketManager:
         await websocket.accept()
         if room_id not in self.rooms:
             self.rooms[room_id] = {}
-            await self.redis_session.connect()
+            await self.redis_session.client()
             pubsub_subscriber = await self.redis_session.subscribe(room_id)
             self.pubsubs[room_id] = pubsub_subscriber
             

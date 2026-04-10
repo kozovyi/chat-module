@@ -31,17 +31,17 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(lifespan=lifespan)
-app.mount("/admin", admin_app)
-app.include_router(router, prefix=settings.api.prefix)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
+app.mount("/admin", admin_app)
+app.include_router(router, prefix=settings.api.prefix)
 
 if __name__ == "__main__":
     logger.warning("hell yea")
